@@ -1,0 +1,390 @@
+﻿
+body
+{
+    margin:0 0 0 0;
+    font-family:Arial;
+    font-size:10pt;
+    }
+    
+body a
+{
+    color:#8e3373;
+    
+    }
+    
+:focus
+{
+	outline:none;    
+    }  
+
+
+
+   
+
+html
+{
+   /* background-image:url('/Pict/Common/bg.png');
+    background-repeat:repeat;
+    background-position:center;*/
+    
+    background-color:#341a2d;
+    margin:0 0 0 0;
+    
+    }
+.profileDiv
+{
+    margin: 0 auto;
+    width:950px;
+    height:60px;
+    position:relative;
+    top:0px;
+    
+    }
+    
+.goatDiv
+{
+    height:105px;
+    width:100%;
+    background-image:url('/Pict/Common/goat.png');
+    background-repeat:repeat;
+    }
+.goatDiv .compositeHeadDiv
+{
+    margin: 0 auto;
+    height:105px;
+    width:950px;
+    }    
+.logoDiv
+{
+    position:relative;
+    top:25px;
+    width:155px;
+    height:73px;
+    float:left;
+    left:30px;
+    /*background-image:url('/Pict/Common/logo.png');*/
+    
+    }    
+.bannerDiv
+{
+     /*background-image:url('/Pict/Common/banner.png');
+     background-position:right center;
+     background-repeat:no-repeat;*/
+     float:right;
+     height:73px;
+     width:720px;
+     text-align:right;
+     position:relative;
+     top:15px;
+    }    
+.breadCrumbs
+{
+    margin: 0 auto;
+    width:950px;
+    height:10px;
+    position:relative;
+    top:0px;
+    }    
+    
+.topDiv
+{
+    margin: 0 auto;
+    width:950px;
+    }    
+    
+.bottomDiv
+{
+    margin: 0 auto;
+    width:950px;
+    }     
+
+.bodyDiv
+{
+    margin: 0 auto;
+    width:950px;
+    height:inherit;
+    display:table;
+    }    
+.menuDiv
+{
+    float:left;
+    }   
+
+.contentDiv
+{
+    width:725px;
+    float:right;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    }   
+    
+.bottomPlate
+{
+    height:272px;
+    width:100%;
+    background-image:url('/Pict/Common/darkBottomPlate.png');
+    background-repeat:repeat-x;
+    background-position:center center;
+    }     
+    
+.bottomHeight
+{
+    height:100px;
+    width:100%;
+    }       
+    
+.lobstertitle    
+{
+    font-family: 'Lobster', cursive;
+    color:#FFFFFF;
+    font-size:18pt;
+    margin:10px 0 10px 0;
+    }
+    
+.online
+{
+    color:#719321;
+    }   
+.offline
+{
+    color:#cf0241;
+    }   
+    
+    
+ @media screen and (-webkit-min-device-pixel-ratio: 0) 
+ {
+     input[type=checkbox]
+{
+    background: url("/Pict/Common/checkbox.png"); 
+    background-repeat:no-repeat;
+    height: 12px;
+    width: 13px; 
+    -webkit-appearance: none; 
+    cursor: pointer; 
+    border:0px;
+    
+    }    
+    
+input[type=checkbox]:checked
+{
+     background-position:-13px 0;
+    }    
+ }   
+ 
+ 
+ .top
+{
+    background-image:url("/Pict/Contractor/MoreInfoTop.png");   
+    background-repeat:no-repeat;
+    height:18px; 
+    width:726px;
+    display:table;
+    }  
+    
+.middle
+{
+    display:table;
+    background-image:url("/Pict/Contractor/MoreInfoMiddle.png");  
+    width:726px;  
+    
+    
+    
+    }  
+    
+.padding
+{
+    padding:5px 32px 5px 30px;
+    }    
+    
+.bottom
+{
+    background-image:url("/Pict/Contractor/MoreInfoBottom.png");   
+    background-repeat:no-repeat;
+    height:17px; 
+    display:table;
+    width:726px;
+    }  
+    
+.topSmall
+{
+    background-image:url("/Pict/Common/whiteBlockTopSmall.png");   
+    background-repeat:no-repeat;
+    height:4px; 
+    width:240px;
+    display:table-cell;
+    }    
+    
+.middleSmall
+{
+    background-color:#f3f3f3;
+    display:table-cell;
+    width:215px;
+    padding:0px 5px 0px 20px;
+    font-size:9pt;
+    }    
+.bottomSmall
+{
+    background-image:url("/Pict/Common/whiteBlockBottomSmall.png");   
+    background-repeat:no-repeat;
+    height:7px; 
+    width:240px;
+    display:table-cell;
+    }        
+    
+.ColumnInfo
+{
+    float:left;
+    height:50px;
+    margin-left:20px;
+    font-size:10pt;
+    }    
+.first
+{
+    width:230px;
+    }    
+    
+.Name
+{
+    color:#8e3373;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11pt;
+    }
+.Title
+{
+    color:#8e3373;
+    font-family:Arial;
+    font-size:12pt;
+    }    
+    
+ .skip
+{
+    font-size:11pt;
+    }    
+.second
+{
+  width:150px;
+    } 
+    
+.avatar
+{
+    float:left;
+    width:50px;
+    height:50px;
+    
+    }        
+.contractorSelection
+{
+    position:fixed;
+    top:0px;
+    left:20px;
+  
+    }      
+    
+
+.contractors
+{
+    position:relative;
+    left:30px;
+    width:690px;
+    }    
+.contractors .one
+{
+    display:table-row;
+    
+    }   
+
+.contractors .one .item
+{
+display:table-cell;
+    }      
+    
+.contractors .one .no
+{
+    width:5px;
+    color:#FFFFFF;
+    font-size:8pt;
+    vertical-align:middle;
+    }    
+.contractors .one .avatar
+{
+    padding:10px 10px 10px 10px;
+    } 
+.contractors .one .info
+{
+    vertical-align:middle;
+     color:#FFFFFF;
+    font-size:10pt;
+    line-height:14pt;
+    }  
+.contractors .one .info a
+{    
+    color:#a07d97;
+}
+.contractors .one .info .name
+{
+    color:#d7bf5e;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11pt;
+    }  
+    
+.contractors .one .info .status
+{
+    color:#caabab;
+}    
+
+    
+.photoes
+{
+    width:722px;
+    height:140px;
+    background-image:url('/Pict/Contractor/ecPromoPhotoBg.png');
+    padding:20px 0 20px 0;
+    float:left;
+    background-position:center center;
+    background-repeat:no-repeat;
+    }    
+
+.photoes .photo
+{
+    width:100px;
+    height:100px;
+    margin:0 7px 0 7px;
+    padding:0 0 0 0;
+    float:left;
+   
+    position:relative;
+    left:12px;
+    top:18px;
+    }  
+    
+.bottomLinkArray     
+{
+    width:950px;
+    display:table;
+    margin:0 auto;
+    color:#FFFFFF;
+
+    }   
+.MapAnchorDiv
+{
+    padding:2px 0 2px 0; 
+    display:block;
+    }
+.MapAnchorDiv a
+{
+    color:#a07d97;
+    }     
+.LabelMapAnchorDivTitle
+{
+    font-size:12pt;
+    padding-top:20px;
+    display:block;
+    font-weight:bold;
+    }   
+    
+.yellow
+{
+    color: #d7bf5e;
+    }     

@@ -1,0 +1,5 @@
+G:\YourDay (2)\YourDay.Masqaradue\bin\Debug\YourDay.Masqaradue.dll
+G:\YourDay (2)\YourDay.Masqaradue\bin\Debug\YourDay.Masqaradue.pdb
+G:\YourDay (2)\YourDay.Masqaradue\obj\Debug\ResolveAssemblyReference.cache
+G:\YourDay (2)\YourDay.Masqaradue\obj\Debug\YourDay.Masqaradue.dll
+G:\YourDay (2)\YourDay.Masqaradue\obj\Debug\YourDay.Masqaradue.pdb

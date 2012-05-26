@@ -1,0 +1,17 @@
+﻿Installing assembly 'D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.exe'.
+Affected parameters are:
+   username = SynCHrOphAsA-PC\SynCHrOphAsA
+   logtoconsole = 
+   logfile = D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.InstallLog
+   assemblypath = D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.exe
+   password = ********
+Installing service MailService...
+Service MailService has been successfully installed.
+Creating EventLog source MailService in log Application...
+Committing assembly 'D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.exe'.
+Affected parameters are:
+   username = SynCHrOphAsA-PC\SynCHrOphAsA
+   logtoconsole = 
+   logfile = D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.InstallLog
+   assemblypath = D:\YourDay\YourDay (2)\YourDay.MailService\bin\Release\YourDay.MailService.exe
+   password = ********

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YourDay_v4Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="YourDay_v4ModelStoreContainer">
+    <EntitySet Name="Contractors" EntityType="YourDay_v4Model.Store.Contractors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SimpleUsers" EntityType="YourDay_v4Model.Store.SimpleUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="YourDay_v4Model.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Contractors_Users" Association="YourDay_v4Model.Store.FK_Contractors_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Contractors" EntitySet="Contractors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SimpleUsers_Users" Association="YourDay_v4Model.Store.FK_SimpleUsers_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SimpleUsers" EntitySet="SimpleUsers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Contractors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Site" Type="nvarchar" MaxLength="50" />
+    <Property Name="VK" Type="nvarchar" MaxLength="50" />
+    <Property Name="Facebook" Type="nvarchar" MaxLength="50" />
+    <Property Name="Twitter" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1500" />
+    <Property Name="Additional" Type="nvarchar" MaxLength="1500" />
+    <Property Name="City" Type="int" />
+    <Property Name="Activate" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SimpleUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="AvatarOffset" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Contractors_Users">
+    <End Role="Users" Type="YourDay_v4Model.Store.Users" Multiplicity="1" />
+    <End Role="Contractors" Type="YourDay_v4Model.Store.Contractors" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Contractors">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SimpleUsers_Users">
+    <End Role="Users" Type="YourDay_v4Model.Store.Users" Multiplicity="1" />
+    <End Role="SimpleUsers" Type="YourDay_v4Model.Store.SimpleUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SimpleUsers">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

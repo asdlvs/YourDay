@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/normalize.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/style.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/typo.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/nav.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/panel.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/icons.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/form.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/table.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/base64.css")" />
+	<link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/css/orbit-1.2.3.css")" />
+	
+	<!--[if lte IE 8 ]><script src="js/html5.js"></script><![endif]-->
+	<script src="@Url.Content("~/Scripts/jquery.min.js")" type="text/javascript"></script>
+	<script src="@Url.Content("~/Scripts/jquery.tmpl.min.js")" type="text/javascript"></script>
+	<script src="@Url.Content("~/Scripts/customize.js")" type="text/javascript"></script>
+	<script src="@Url.Content("~/Scripts/baseyourday.js")" type="text/javascript"></script>
+	<script src="@Url.Content("~/Scripts/jquery.orbit-1.2.3.js")" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+ 
+
+
+<header>
+
+	<!-- Unlogged user menu -->
+	<div class="l-wrap b-user-menu clearfix">
+		<nav>
+			<ul class="nav-usermenu clearfix">
+				<li>@*Ваш город: <strong>Санкт-Петербург</strong><a href="#" class="i-dd-wrap"><i class="i i-dd"></i></a>*@</li>
+				<li class="login-action login"><a href="#">Вход</a></li>
+				<li class="login-action register"><a href="#">Регистрация</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- /Unlogged user menu -->
+
+	<!-- Logo -->
+	<div class="b-lamb">
+		<div class="l-wrap">
+			<img src="@Url.Content("~/Content/i/logo.png")" alt="Your Day" class="logo">
+			<div class="banner">
+				<img src="@Url.Content("~/Content/i/banner.png")" alt="Banner">
+			</div>
+		</div>
+	</div>
+	<!-- /Logo -->
+
+</header>
+
+   @RenderBody()
+
+<footer>
+@{Html.RenderAction("Footer", "Template");}
+	
+
+	<!-- Copy  -->
+	<div class="l-wrap b-copyrights">
+		<span class="copy">&copy; 2011 &laquo;YourDay.ru&raquo;</span>
+		<nav class="nav-inline nav-about">
+			<ul>
+				<li><a href="#">О проекте</a></li>
+				<li><a href="#">Реклама на сайте</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+		<span class="art">Дизайн создан в <a href="http://www.arthorse.ru/">Arthorse</a></span>
+	</div>
+	<!-- /Copy  -->
+
+</footer>
+
+
+</body>
+</html>

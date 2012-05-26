@@ -1,0 +1,42 @@
+﻿@using YourDay.BLL
+
+
+<!-- Best photographers -->
+<section class="b-best-photographers">
+    <header>
+        <h2 class="featured">Лучшие фотографы</h2>
+    </header>
+    <div class="b-twocol devider clearfix">
+        <div class="col left">
+            <ol>
+                @foreach (var contractor in Manager.GetTopSixOnMain(Admin.DefaultSubcategoryForTopSix()).Take(3))
+                {
+                    <li>
+                        <figure class="b-userpick clearfix">
+                            <img src="@contractor.GetAvatarImage(52)" alt="@contractor.FullName">
+                            <figcaption>
+                                <h4 class="username"><a href="#">@contractor.FullName</a></h4>
+                                @*Специализация: <a href="javascript:;">шоу-мен</a>*@</figcaption>
+                        </figure>
+                    </li>
+                }
+            </ol>
+        </div>
+        <div class="col right">
+            <ol start="4">
+                 @foreach (var contractor in Manager.GetTopSixOnMain(Admin.DefaultSubcategoryForTopSix()).Skip(3))
+                {
+                    <li>
+                        <figure class="b-userpick clearfix">
+                            <img src="@contractor.GetAvatarImage(52)" alt="@contractor.FullName">
+                            <figcaption>
+                                <h4 class="username"><a href="#">@contractor.FullName</a></h4>
+                                @*Специализация: <a href="javascript:;">шоу-мен</a>*@</figcaption>
+                        </figure>
+                    </li>
+                }
+            </ol>
+        </div>
+    </div>
+</section>
+<!-- /Best photographers -->

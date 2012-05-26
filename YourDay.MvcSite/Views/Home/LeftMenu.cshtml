@@ -1,0 +1,12 @@
+﻿<aside class="l-sidebar">
+    <nav class="nav-main">
+        <ul>
+            @foreach (var item in YourDay.BLL.Get.Categories().OrderBy(x => x.Title))
+            {
+                <li class="nav-item"><a href="@YourDay.BLL.Manager.GetCategoryLink(item.Id)">
+                    @item.Title
+                </a></li>
+            }
+        </ul>
+    </nav>
+</aside>

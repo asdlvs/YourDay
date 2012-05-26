@@ -1,0 +1,15 @@
+﻿@using YourDay.BLL
+<section class="b-promo-news col left">
+    <header class="header-more">
+        <h2 class="featured">Статьи </h2>
+        <a href="javascript:;" class="more">Все статьи</a>
+    </header>
+    @foreach (var item in Get.Articles().Take(2))
+    {
+        <div class="news-item">
+            <img src="@Manager.GetArticleThumbImg(item.Id, true)" alt="photo" class="media">
+            <h4 class="a-3"><a href="@Manager.GetArticleLink(item.Id)">@item.Title</a></h4>
+            @Manager.GetShortContent(item.Content, 50)
+        </div>
+    }
+</section>

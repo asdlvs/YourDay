@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BreadCrumbs.ascx.cs" Inherits="YourDay.Site.Controls.Navigate.BreadCrumbs" %>
+<asp:Literal runat="server" ID="LiteralBreadCrumbs"></asp:Literal>

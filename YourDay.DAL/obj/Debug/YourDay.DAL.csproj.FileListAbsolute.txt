@@ -1,0 +1,66 @@
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Basic.dll
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Basic.pdb
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+C:\Users\SynCHroPhaSa\Documents\Visual Studio 2010\Projects\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+E:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+E:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+F:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+F:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+F:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+F:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+F:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+F:\YourDay (2)\YourDay.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+F:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+E:\YourDay (2)\YourDay.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+E:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.dll
+E:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.pdb
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.dll
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+H:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.pdb
+H:\YourDay (2)\YourDay.DAL\obj\Debug\ResolveAssemblyReference.cache
+H:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+H:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.dll
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+G:\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.pdb
+G:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.csprojResolveAssemblyReference.cache
+G:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+G:\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.dll
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+E:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.pdb
+E:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.csprojResolveAssemblyReference.cache
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll.config
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.dll
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.DAL.pdb
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.dll
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.dll
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.POCO.pdb
+D:\YourDay\YourDay (2)\YourDay.DAL\bin\Debug\YourDay.Constants.pdb
+D:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.csprojResolveAssemblyReference.cache
+D:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.dll
+D:\YourDay\YourDay (2)\YourDay.DAL\obj\Debug\YourDay.DAL.pdb

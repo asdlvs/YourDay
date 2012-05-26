@@ -1,0 +1,124 @@
+﻿@charset "utf-8";
+/*
+	styles for select
+*/
+.cusel,
+.cuselFrameRight,
+.jScrollPaneDrag,
+.jScrollArrowUp,
+.jScrollArrowDown {
+	background: url(/Pict/Contractor/statusselectarrow.png) no-repeat;
+}
+.cusel { /* общий вид селекта включая стрелку справа */
+	height: 38px;
+	width:143px;
+	background-position: right center;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-size: 10pt;
+	z-index: 1;
+	outline:none;
+	color:#FFFFFF;
+}
+
+
+/*
+.cuselFrameRight {  левая чсть селект. обыно скругление и левая граница 
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 42px;
+	background-position: right top;
+}*/
+
+.cuselText { /* контейнер для отображенного текста селект */
+	height: 14px;
+	padding: 6px 0 0 7px; /* подбираем отступы и высоту для видимого текста в селекте */
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	
+	position: absolute;
+	top: 6px;
+	left: 0;
+	
+}
+* html .cuselText { /* высота блока для текста для ие6 */
+	height: 22px;
+}
+.cusel span { /* оформление оптиона */
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 7px 15px 2px 5px; /* паддинг справа - это отступ текста от ползунка */
+	zoom: 1;
+	text-align:left;
+	height:29px;
+	text-align:right;
+	position:relative;
+	top:6px;
+	
+	
+}
+.cusel span:hover,
+.cusel .cuselOptHover { /* реакция оптиона на наведение */
+	background: url(/Pict/Contractor/statusmouseonitem.png) no-repeat  ;
+	position:relative;
+}
+.cusel .cuselActive { /* оформление активного оптиона в списке */
+	/*background: #CC0000;*/
+	cursor: default;
+	background: url(/Pict/Contractor/statusselecteditem.png) no-repeat;
+	position:relative;
+
+}
+
+/*
+	styles for focus and hover
+*/
+.cusel:hover,
+.cusel:hover .cuselFrameRight,
+.cusel:focus,
+.cusel:focus .cuselFrameRight,
+.cuselFocus,
+.cuselFocus .cuselFrameRight {
+	background: url(/Pict/Contractor/statusselectarrow.png) no-repeat;
+	background-position: right center;
+}
+
+.cuselOpen {
+	z-index: 999;
+}
+
+
+
+
+/*
+	styles for scrollbar
+*/
+.cusel .cusel-scroll-wrap { /* контейнер для блока с прокруткой */
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	left: 2px;
+	
+	background: url(/Pict/Contractor/statusselectbg.png) no-repeat;
+	position:relative;
+	bottom:1px;
+	min-width: 100%;
+	height:160px;
+    width:147px;
+    z-index:1000;
+}
+.cusel .jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 5;
+}
+
+
+

@@ -1,0 +1,60 @@
+﻿<!-- Additional info  -->
+<div class="b-additional">
+    <div class="l-wrap clearfix">
+        <div class="b-col left">
+            <h3>Каталог контрагентов</h3>
+            <nav class="nav-additional contractors">
+                @foreach (var item in (ViewBag.CategoryLinks as IEnumerable<IGrouping<double, YourDay.POCO.Category>>))
+                {
+                    <ul>
+                        @foreach (var category in item)
+                        {
+                            <li><a href="@YourDay.BLL.Manager.GetCategoryLink(category.Id)">
+                                @category.Title
+                            </a></li> 
+                        }
+                    </ul> 
+                }
+            </nav>
+        </div>
+        <div class="b-col center">
+            @if (ViewBag.HeaderLinks != null)
+            {
+                <h3>Личный кабинет</h3>
+                <nav class="nav-additional">
+                    <ul>
+                        @foreach (var item in (ViewBag.HeaderLinks as Dictionary<string, string>))
+                        { 
+                            <li><a href="@item.Value">@item.Key</a></li>
+                        }
+                    </ul>
+                </nav>
+            }
+            <h3>О проекте</h3>
+            <nav class="nav-additional">
+                <ul>
+                    @foreach (var item in (ViewBag.AdvLinks as Dictionary<string, string>))
+                    {
+                        <li><a href="@item.Value">@item.Key</a></li>
+                    }
+                </ul>
+            </nav>
+        </div>
+        <div class="b-col right">
+            <div class="b-intro">
+                <div class="intro-text">
+                    YourDay.ru поможет исполнить ваши желания, организовать свадьбу и&nbsp;день рождения.
+                    Здесь Вы&nbsp;найдете лучшие сценарии, удобный календарь праздников. Проведение
+                    и&nbsp;организация праздников (вечеринок, торжеств и&nbsp;других праздничных мероприятий)
+                    в&nbsp;Москве и&nbsp;Санкт-Петербурге.
+                </div>
+            </div>
+            <div class="b-follow-us">
+                Следите за нами: <a href="#"><i class="i i-facebook"></i></a><a href="#"><i class="i i-twitter">
+                </i></a><a href="#"><i class="i i-google-plus"></i></a><a href="#"><i class="i i-vkontakte">
+                </i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Additional info  -->

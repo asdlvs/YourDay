@@ -1,0 +1,32 @@
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width: 460px; }			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{ position: relative; overflow: hidden; width: 480px; height: 265px; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 480px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ border:none;}
+#movers-row									{ display:inline-block; width:100%; right:5px; text-align:justify; text-align-last:justify; }
+#movers-row div								{ width: 20%; float: left; }
+#movers-row div a.cross-link 				{ float: right; }
+.photo-meta-data							{ background: url("/Pict/default/graytransparentbg.png"); 
+                							  padding:10px;
+											  bottom:0;
+											  position: absolute; 
+											  z-index: 9999; 
+											  color:#FFFFFF;
+											  width:440px;
+                                              font-size:10pt; }
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link									{ }
+.active-thumb 								{ background: transparent url(images/icon-uparrowsmallwhite.png) top center no-repeat; }
+
+
+
+
+
+

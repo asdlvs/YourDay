@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YourDay_v4Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MembershipEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="YourDay_v4Model.User" />
+  </EntityContainer>
+  <EntityType Name="Contractor" BaseType="YourDay_v4Model.User">
+    <Property Name="Site" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="VK" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Facebook" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Twitter" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="1500" Unicode="true" FixedLength="false" />
+    <Property Name="Additional" Type="String" MaxLength="1500" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="Int32" />
+    <Property Name="Activate" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SimpleUser" BaseType="YourDay_v4Model.User" />
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Login" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="EMail" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="AvatarOffset" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

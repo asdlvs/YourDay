@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{506EEBD8-79C6-4B2C-88AD-DFCF512DC118}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YourDay.Site</RootNamespace>
+    <AssemblyName>YourDay.Site</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\YourDay.BLL.dll" />
+    <Content Include="bin\YourDay.BLL.pdb" />
+    <Content Include="bin\YourDay.DAL.dll" />
+    <Content Include="bin\YourDay.DAL.pdb" />
+    <Content Include="bin\YourDay.Helper.dll" />
+    <Content Include="bin\YourDay.Helper.pdb" />
+    <Content Include="bin\YourDay.Masquaradue.dll" />
+    <Content Include="bin\YourDay.Masquaradue.pdb" />
+    <Content Include="bin\YourDay.POCO.dll" />
+    <Content Include="bin\YourDay.POCO.pdb" />
+    <Content Include="bin\YourDay.Site.dll" />
+    <Content Include="bin\YourDay.Site.pdb" />
+    <Content Include="Controls\Auth\Authentication.ascx" />
+    <Content Include="Controls\Auth\HeaderLinks.ascx" />
+    <Content Include="Controls\Auth\LoginRegister.ascx" />
+    <Content Include="Controls\Auth\Registration.ascx" />
+    <Content Include="Controls\Catalog\ContractorList.ascx" />
+    <Content Include="Controls\Catalog\ShortInfo.ascx" />
+    <Content Include="Controls\Catalog\TopContractor.ascx" />
+    <Content Include="Controls\Comments&amp;Messages\NewMessage.ascx" />
+    <Content Include="Controls\Comments&amp;Messages\NewMessagePopup.ascx" />
+    <Content Include="Controls\Common\CutImage.ascx" />
+    <Content Include="Controls\Common\Messenger\InputBox.ascx" />
+    <Content Include="Controls\Common\Messenger\Template_1.ascx" />
+    <Content Include="Controls\Common\Photoes.ascx" />
+    <Content Include="Controls\Contractor\CalendarShort.ascx" />
+    <Content Include="Controls\Contractor\Contractor.ascx" />
+    <Content Include="Controls\Contractor\ContractorCabinetUC.ascx" />
+    <Content Include="Controls\Contractor\EventCardPromo.ascx" />
+    <Content Include="Controls\Contractor\EventCardsPromoList.ascx" />
+    <Content Include="Controls\Contractor\EventInCabinet.ascx" />
+    <Content Include="Controls\Contractor\EventsInCabinet.ascx" />
+    <Content Include="Controls\Contractor\Messages.ascx" />
+    <Content Include="Controls\Contractor\MyEvents.ascx" />
+    <Content Include="Controls\Contractor\OfferEventCardCatalog.ascx" />
+    <Content Include="Controls\Contractor\OneDay.ascx" />
+    <Content Include="Controls\Contractor\Preferences\Activities.ascx" />
+    <Content Include="Controls\Contractor\Preferences\AvatarLoader.ascx" />
+    <Content Include="Controls\Contractor\Preferences\ChangePwd.ascx" />
+    <Content Include="Controls\Contractor\Preferences\CI.ascx" />
+    <Content Include="Controls\Contractor\Preferences\PreferencesForm.ascx" />
+    <Content Include="Controls\Contractor\Preferences\Private.ascx" />
+    <Content Include="Controls\Contractor\UnregisteredUser.ascx" />
+    <Content Include="Controls\Default\BestContractor.ascx" />
+    <Content Include="Controls\Default\BestContractors.ascx" />
+    <Content Include="Controls\Default\BottomLinksArray.ascx" />
+    <Content Include="Controls\Default\EventsReports.ascx" />
+    <Content Include="Controls\Default\LastArticles.ascx" />
+    <Content Include="Controls\Default\LastPhotoes.ascx" />
+    <Content Include="Controls\Default\LastVideo.ascx" />
+    <Content Include="Controls\Default\News.ascx" />
+    <Content Include="Controls\Default\PromoBlock.ascx" />
+    <Content Include="Controls\Default\UnAuthUser.ascx" />
+    <Content Include="Controls\Default\WayToEventCard.ascx" />
+    <Content Include="Controls\EventCard\ContractorsSelection.ascx" />
+    <Content Include="Controls\EventCard\EventCardBody.ascx" />
+    <Content Include="Controls\EventCard\EventCardBodyEls\ContractorsList.ascx" />
+    <Content Include="Controls\EventCard\EventCardCreator.ascx" />
+    <Content Include="Controls\EventCard\EventCardHeader.ascx" />
+    <Content Include="Controls\EventCard\SubcategoriesList.ascx" />
+    <Content Include="Controls\Auth\Main.ascx" />
+    <Content Include="Controls\Navigate\BreadCrumbs.ascx" />
+    <Content Include="Controls\Navigate\CategoriesMenu.ascx" />
+    <Content Include="Controls\Navigate\MenuSimple.ascx" />
+    <Content Include="Controls\Navigate\LeftMenuBody.ascx" />
+    <Content Include="Controls\Navigate\LeftMenuHeader.ascx" />
+    <Content Include="Controls\User\FavouritesList.ascx" />
+    <Content Include="CSS\Auth.css" />
+    <Content Include="CSS\CommentsIMessages.css" />
+    <Content Include="CSS\DropDown\cusel.css" />
+    <Content Include="CSS\DropDown\ECStatus.css" />
+    <Content Include="CSS\Jquery.UI\jquery.Jcrop.css" />
+    <Content Include="css_optimized\base64.css" />
+    <Content Include="css_optimized\form.css" />
+    <Content Include="css_optimized\icons.css" />
+    <Content Include="css_optimized\nav.css" />
+    <Content Include="css_optimized\normalize.css" />
+    <Content Include="css_optimized\panel.css" />
+    <Content Include="css_optimized\style.css" />
+    <Content Include="css_optimized\table.css" />
+    <Content Include="css_optimized\typo.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name1.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name1_100_100.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name1_212_212.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name1_460_265.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name1_50_50.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name2.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name2_100_100.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name2_212_212.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name2_460_265.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name2_50_50.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name3.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name3_100_100.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name3_212_212.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name3_460_265.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name3_50_50.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name4.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name4_100_100.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name4_460_265.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name4_50_50.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name5.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name5_100_100.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name5_460_265.png" />
+    <Content Include="Images\asdfghjklzxc%40yandex.ru\name5_50_50.png" />
+    <Content Include="Images\k%40ya.ru\avatar.png" />
+    <Content Include="Images\k%40ya.ru\avatar_100.png" />
+    <Content Include="Images\k%40ya.ru\avatar_50.png" />
+    <Content Include="Images\solovey%40razboynik.ru\avatar.png" />
+    <Content Include="Images\solovey%40razboynik.ru\avatar_50.png" />
+    <Content Include="Images\vasser%40man.tu\avatar.png" />
+    <Content Include="Images\vasser%40man.tu\avatar_100.png" />
+    <Content Include="Images\vasser%40man.tu\avatar_50.png" />
+    <Content Include="Images\vava%40tata.ru\avatar.png" />
+    <Content Include="Images\vava%40tata.ru\avatar_50.png" />
+    <Content Include="Images\z%40ya.ru\avatar.png" />
+    <Content Include="Images\z%40ya.ru\avatar_100.png" />
+    <Content Include="Images\z%40ya.ru\avatar_50.png" />
+    <Content Include="Images\z%40ya.ru\photo1.png" />
+    <Content Include="Images\z%40ya.ru\photo1_100_100.png" />
+    <Content Include="Images\z%40ya.ru\photo1_212_212.png" />
+    <Content Include="Images\z%40ya.ru\photo1_460_265.png" />
+    <Content Include="Images\z%40ya.ru\photo1_50_50.png" />
+    <Content Include="Images\z%40ya.ru\photo2.png" />
+    <Content Include="Images\z%40ya.ru\photo2_100_100.png" />
+    <Content Include="Images\z%40ya.ru\photo2_212_212.png" />
+    <Content Include="Images\z%40ya.ru\photo2_460_265.png" />
+    <Content Include="Images\z%40ya.ru\photo2_50_50.png" />
+    <Content Include="Images\z%40ya.ru\photo3.png" />
+    <Content Include="Images\z%40ya.ru\photo3_100_100.png" />
+    <Content Include="Images\z%40ya.ru\photo3_212_212.png" />
+    <Content Include="Images\z%40ya.ru\photo3_460_265.png" />
+    <Content Include="Images\z%40ya.ru\photo3_50_50.png" />
+    <Content Include="Images\z%40ya.ru\photo4.png" />
+    <Content Include="Images\z%40ya.ru\photo4_100_100.png" />
+    <Content Include="Images\z%40ya.ru\photo4_460_265.png" />
+    <Content Include="Images\z%40ya.ru\photo4_50_50.png" />
+    <Content Include="Images\z%40ya.ru\photo5.png" />
+    <Content Include="Images\z%40ya.ru\photo5_100_100.png" />
+    <Content Include="Images\z%40ya.ru\photo5_460_265.png" />
+    <Content Include="Images\z%40ya.ru\photo5_50_50.png" />
+    <Content Include="Images\z%40ya.ru\photo6.png" />
+    <Content Include="Images\z%40ya.ru\photo6_100_100.png" />
+    <Content Include="JS\Common\jquery.color.js" />
+    <Content Include="JS\Common\jquery.cookie.js" />
+    <Content Include="JS\Common\jquery.Jcrop.js" />
+    <Content Include="JS\Common\jquery.Jcrop.min.js" />
+    <Content Include="JS\Common\jquery.min.js" />
+    <Content Include="JS\Common\Messenger.js" />
+    <Content Include="JS\Contractor\ajaxupload.js" />
+    <Content Include="JS\Contractor\Cabinet.js" />
+    <Content Include="JS\DropDown\cusel-min-2.4.1.js" />
+    <Content Include="JS\DropDown\cusel.js" />
+    <Content Include="JS\DropDown\jquery.mousewheel.js" />
+    <Content Include="JS\DropDown\jScrollPane.js" />
+    <Content Include="JS\EventCard\ContractorSelection.js" />
+    <Content Include="js_optimized\baseyourday.js" />
+    <Content Include="js_optimized\customize.js" />
+    <Content Include="js_optimized\html5.js" />
+    <Content Include="js_optimized\jquery.min.js" />
+    <Content Include="Messages.aspx" />
+    <Content Include="Pict\Auth\authbg.png" />
+    <Content Include="Pict\Auth\close.png" />
+    <Content Include="Pict\Auth\continue.png" />
+    <Content Include="Pict\Auth\graybg.png" />
+    <Content Include="Pict\Auth\login.png" />
+    <Content Include="Pict\Catalog\shortContractorBG.png" />
+    <Content Include="Pict\CommentsIMessages\newmessagebg.png" />
+    <Content Include="Pict\CommentsIMessages\send.png" />
+    <Content Include="Pict\Common\blockBottom.png" />
+    <Content Include="Pict\Common\blockMiddle.png" />
+    <Content Include="Pict\Common\blockTop.png" />
+    <Content Include="Pict\Common\checkbox.png" />
+    <Content Include="Pict\Common\save.png" />
+    <Content Include="Pict\Common\whiteBlockBottomSmall.png" />
+    <Content Include="Pict\Common\whiteBlockTopSmall.png" />
+    <Content Include="Pict\Contractor\arrow.png" />
+    <Content Include="Pict\Contractor\arrowdown.png" />
+    <Content Include="Pict\Contractor\block.png" />
+    <Content Include="Pict\Contractor\closedday.png" />
+    <Content Include="Pict\Contractor\day.png" />
+    <Content Include="Pict\Contractor\emptyday.png" />
+    <Content Include="Pict\Contractor\horizontalLine.png" />
+    <Content Include="Pict\Contractor\letter.png" />
+    <Content Include="Pict\Contractor\load.png" />
+    <Content Include="Pict\Contractor\markasRead.png" />
+    <Content Include="Pict\Contractor\messageBlockBg.png" />
+    <Content Include="Pict\Contractor\messageHeaderBG.png" />
+    <Content Include="Pict\Contractor\messagesBottomBg.png" />
+    <Content Include="Pict\Contractor\messagesTopBg.png" />
+    <Content Include="Pict\Contractor\notpayed.png" />
+    <Content Include="Pict\Contractor\payed.png" />
+    <Content Include="Pict\Contractor\pencil.png" />
+    <Content Include="Pict\Contractor\preferencesBlockBottom.png" />
+    <Content Include="Pict\Contractor\preferencesBlockMiddle.png" />
+    <Content Include="Pict\Contractor\preferencesBlockTop.png" />
+    <Content Include="Pict\Contractor\sendButton.png" />
+    <Content Include="Pict\Contractor\statusmouseonitem.png" />
+    <Content Include="Pict\Contractor\statusselectarrow.png" />
+    <Content Include="Pict\Contractor\statusselectbg.png" />
+    <Content Include="Pict\Contractor\statusselecteditem.png" />
+    <Content Include="Pict\DatePicker\dp-header-bg.png" />
+    <Content Include="Pict\DatePicker\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Pict\DatePicker\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Pict\DatePicker\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Pict\DatePicker\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Pict\DatePicker\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Pict\DatePicker\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Pict\DatePicker\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Pict\DatePicker\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Pict\DatePicker\ui-icons_222222_256x240.png" />
+    <Content Include="Pict\DatePicker\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Pict\DatePicker\ui-icons_454545_256x240.png" />
+    <Content Include="Pict\DatePicker\ui-icons_888888_256x240.png" />
+    <Content Include="Pict\DatePicker\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.accordion.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.all.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.autocomplete.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.base.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.button.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.core.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.datepicker.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.dialog.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.progressbar.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.resizable.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.selectable.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.slider.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.tabs.css" />
+    <Content Include="CSS\Jquery.UI\jquery.ui.theme.css" />
+    <Content Include="CSS\Catalog.css" />
+    <Content Include="CSS\Common.css" />
+    <Content Include="CSS\Contractor.css" />
+    <Content Include="CSS\Default.css" />
+    <Content Include="CSS\EventCard.css" />
+    <Content Include="CSS\Navigate\LeftMenu.css" />
+    <Content Include="CSS\Slider.css" />
+    <Content Include="Images\Promo\promo1.png" />
+    <Content Include="JS\Auth\auth.js" />
+    <Content Include="JS\Common\jquery-1.6.2.min.js" />
+    <Content Include="JS\Common\jquery.ui.core.js" />
+    <Content Include="JS\Common\jquery.ui.datepicker-ru.js" />
+    <Content Include="JS\Common\jquery.ui.datepicker.js" />
+    <Content Include="JS\Common\jquery.ui.widget.js" />
+    <Content Include="JS\Contractor\Actions.js" />
+    <Content Include="JS\DatePicker\jquery.ui.core.js" />
+    <Content Include="JS\DatePicker\jquery.ui.datepicker-ru.js" />
+    <Content Include="JS\DatePicker\jquery.ui.datepicker.js" />
+    <Content Include="JS\DatePicker\jquery.ui.widget.js" />
+    <Content Include="JS\EventCard\ec.js" />
+    <Content Include="JS\Slider\coda-slider.1.1.1.pack.js" />
+    <Content Include="JS\Slider\jquery-easing-1.3.pack.js" />
+    <Content Include="JS\Slider\jquery-easing-compatibility.1.2.pack.js" />
+    <Content Include="JS\Slider\ycodaslider-2.0.pack.js" />
+    <Content Include="JS\Video\flowplayer-3.2.6.min.js" />
+    <Content Include="JS\Video\flowplayer-3.2.7.swf" />
+    <Content Include="JS\Video\flowplayer.controls-3.2.5.swf" />
+    <Content Include="Pict\Auth\bg.png" />
+    <Content Include="Pict\Auth\createuser.png" />
+    <Content Include="Pict\Catalog\TopContractorBG.png" />
+    <Content Include="Pict\Common\banner.png" />
+    <Content Include="Pict\Common\bg.png" />
+    <Content Include="Pict\Common\darkBottomPlate.png" />
+    <Content Include="Pict\Common\goat.png" />
+    <Content Include="Pict\Common\logo.png" />
+    <Content Include="Pict\Contractor\ecListTitle.png" />
+    <Content Include="Pict\Contractor\ecPromoPhotoBg.png" />
+    <Content Include="Pict\Contractor\InfoPlate.png" />
+    <Content Include="Pict\Contractor\MoreInfoBottom.png" />
+    <Content Include="Pict\Contractor\MoreInfoMiddle.png" />
+    <Content Include="Pict\Contractor\MoreInfoTop.png" />
+    <Content Include="Pict\Contractor\plusIcon.png" />
+    <Content Include="Pict\Contractor\priceIcon.png" />
+    <Content Include="Pict\Contractor\sendMessageIcon.png" />
+    <Content Include="Pict\Contractor\starIcon.png" />
+    <Content Include="Pict\ddl\selected.png" />
+    <Content Include="Pict\ddl\selects-2-dis-ie6.png" />
+    <Content Include="Pict\ddl\selects-2-dis.png" />
+    <Content Include="Pict\ddl\selects-2-ie6.png" />
+    <Content Include="Pict\ddl\selects-2.png" />
+    <Content Include="Pict\ddl\selects-focus.png" />
+    <Content Include="Pict\ddl\selects-multiple-focus.png" />
+    <Content Include="Pict\ddl\selects-multiple.png" />
+    <Content Include="Pict\ddl\selects.png" />
+    <Content Include="Pict\Default\arrow.png" />
+    <Content Include="Pict\Default\CreateEvent.png" />
+    <Content Include="Pict\Default\graytransparentbg.png" />
+    <Content Include="Pict\Default\splitter.png" />
+    <Content Include="Pict\EventCard\bg.png" />
+    <Content Include="Pict\EventCard\bottombg.png" />
+    <Content Include="Pict\EventCard\ready.png" />
+    <Content Include="Pict\EventCard\topbg.png" />
+    <Content Include="Pict\Navigate\MenuBlock.png" />
+    <Content Include="Pict\Navigate\MenuBlockBottom.png" />
+    <Content Include="Pict\Navigate\MenuBlockSelected.png" />
+    <Content Include="Pict\Navigate\MenuBlockTop.png" />
+    <Content Include="Pict\TopContractorBG.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="catalog.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Contractor.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="Preferences.aspx" />
+    <Content Include="EventCardPage.aspx" />
+    <Content Include="Favourites.aspx" />
+    <Content Include="WTF.aspx" />
+    <Content Include="WebForm3.aspx" />
+    <Content Include="CreateEventCard.aspx" />
+    <Content Include="WebForm5.aspx" />
+    <Content Include="ContractorCabinet.aspx" />
+    <Content Include="WS\WS.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\ConfirmPasswordException.cs" />
+    <Compile Include="Code\ContractorsDay.cs" />
+    <Compile Include="Controls\Auth\Authentication.ascx.cs">
+      <DependentUpon>Authentication.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auth\Authentication.ascx.designer.cs">
+      <DependentUpon>Authentication.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Auth\HeaderLinks.ascx.cs">
+      <DependentUpon>HeaderLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auth\HeaderLinks.ascx.designer.cs">
+      <DependentUpon>HeaderLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Auth\LoginRegister.ascx.cs">
+      <DependentUpon>LoginRegister.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auth\LoginRegister.ascx.designer.cs">
+      <DependentUpon>LoginRegister.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Auth\Registration.ascx.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auth\Registration.ascx.designer.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Catalog\ContractorList.ascx.cs">
+      <DependentUpon>ContractorList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Catalog\ContractorList.ascx.designer.cs">
+      <DependentUpon>ContractorList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Catalog\ShortInfo.ascx.cs">
+      <DependentUpon>ShortInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Catalog\ShortInfo.ascx.designer.cs">
+      <DependentUpon>ShortInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Catalog\TopContractor.ascx.cs">
+      <DependentUpon>TopContractor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Catalog\TopContractor.ascx.designer.cs">
+      <DependentUpon>TopContractor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Comments&amp;Messages\NewMessage.ascx.cs">
+      <DependentUpon>NewMessage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Comments&amp;Messages\NewMessage.ascx.designer.cs">
+      <DependentUpon>NewMessage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Comments&amp;Messages\NewMessagePopup.ascx.cs">
+      <DependentUpon>NewMessagePopup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Comments&amp;Messages\NewMessagePopup.ascx.designer.cs">
+      <DependentUpon>NewMessagePopup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\CutImage.ascx.cs">
+      <DependentUpon>CutImage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\CutImage.ascx.designer.cs">
+      <DependentUpon>CutImage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\Messenger\InputBox.ascx.cs">
+      <DependentUpon>InputBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\Messenger\InputBox.ascx.designer.cs">
+      <DependentUpon>InputBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\Messenger\Template_1.ascx.cs">
+      <DependentUpon>Template_1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\Messenger\Template_1.ascx.designer.cs">
+      <DependentUpon>Template_1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Common\Photoes.ascx.cs">
+      <DependentUpon>Photoes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Common\Photoes.ascx.designer.cs">
+      <DependentUpon>Photoes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\CalendarShort.ascx.cs">
+      <DependentUpon>CalendarShort.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\CalendarShort.ascx.designer.cs">
+      <DependentUpon>CalendarShort.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Contractor.ascx.cs">
+      <DependentUpon>Contractor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Contractor.ascx.designer.cs">
+      <DependentUpon>Contractor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\ContractorCabinetUC.ascx.cs">
+      <DependentUpon>ContractorCabinetUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\ContractorCabinetUC.ascx.designer.cs">
+      <DependentUpon>ContractorCabinetUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventCardPromo.ascx.cs">
+      <DependentUpon>EventCardPromo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventCardPromo.ascx.designer.cs">
+      <DependentUpon>EventCardPromo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventCardsPromoList.ascx.cs">
+      <DependentUpon>EventCardsPromoList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventCardsPromoList.ascx.designer.cs">
+      <DependentUpon>EventCardsPromoList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventInCabinet.ascx.cs">
+      <DependentUpon>EventInCabinet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventInCabinet.ascx.designer.cs">
+      <DependentUpon>EventInCabinet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventsInCabinet.ascx.cs">
+      <DependentUpon>EventsInCabinet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\EventsInCabinet.ascx.designer.cs">
+      <DependentUpon>EventsInCabinet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Messages.ascx.cs">
+      <DependentUpon>Messages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Messages.ascx.designer.cs">
+      <DependentUpon>Messages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\MyEvents.ascx.cs">
+      <DependentUpon>MyEvents.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\MyEvents.ascx.designer.cs">
+      <DependentUpon>MyEvents.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\OfferEventCardCatalog.ascx.cs">
+      <DependentUpon>OfferEventCardCatalog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\OfferEventCardCatalog.ascx.designer.cs">
+      <DependentUpon>OfferEventCardCatalog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\OneDay.ascx.cs">
+      <DependentUpon>OneDay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\OneDay.ascx.designer.cs">
+      <DependentUpon>OneDay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\Activities.ascx.cs">
+      <DependentUpon>Activities.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\Activities.ascx.designer.cs">
+      <DependentUpon>Activities.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\AvatarLoader.ascx.cs">
+      <DependentUpon>AvatarLoader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\AvatarLoader.ascx.designer.cs">
+      <DependentUpon>AvatarLoader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\ChangePwd.ascx.cs">
+      <DependentUpon>ChangePwd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\ChangePwd.ascx.designer.cs">
+      <DependentUpon>ChangePwd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\CI.ascx.cs">
+      <DependentUpon>CI.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\CI.ascx.designer.cs">
+      <DependentUpon>CI.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\PreferencesForm.ascx.cs">
+      <DependentUpon>PreferencesForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\PreferencesForm.ascx.designer.cs">
+      <DependentUpon>PreferencesForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\Private.ascx.cs">
+      <DependentUpon>Private.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\Preferences\Private.ascx.designer.cs">
+      <DependentUpon>Private.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contractor\UnregisteredUser.ascx.cs">
+      <DependentUpon>UnregisteredUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contractor\UnregisteredUser.ascx.designer.cs">
+      <DependentUpon>UnregisteredUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\BestContractor.ascx.cs">
+      <DependentUpon>BestContractor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\BestContractor.ascx.designer.cs">
+      <DependentUpon>BestContractor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\BestContractors.ascx.cs">
+      <DependentUpon>BestContractors.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\BestContractors.ascx.designer.cs">
+      <DependentUpon>BestContractors.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\BottomLinksArray.ascx.cs">
+      <DependentUpon>BottomLinksArray.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\BottomLinksArray.ascx.designer.cs">
+      <DependentUpon>BottomLinksArray.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\EventsReports.ascx.cs">
+      <DependentUpon>EventsReports.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\EventsReports.ascx.designer.cs">
+      <DependentUpon>EventsReports.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\LastArticles.ascx.cs">
+      <DependentUpon>LastArticles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\LastArticles.ascx.designer.cs">
+      <DependentUpon>LastArticles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\LastPhotoes.ascx.cs">
+      <DependentUpon>LastPhotoes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\LastPhotoes.ascx.designer.cs">
+      <DependentUpon>LastPhotoes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\LastVideo.ascx.cs">
+      <DependentUpon>LastVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\LastVideo.ascx.designer.cs">
+      <DependentUpon>LastVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\News.ascx.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\News.ascx.designer.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\PromoBlock.ascx.cs">
+      <DependentUpon>PromoBlock.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\PromoBlock.ascx.designer.cs">
+      <DependentUpon>PromoBlock.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\UnAuthUser.ascx.cs">
+      <DependentUpon>UnAuthUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\UnAuthUser.ascx.designer.cs">
+      <DependentUpon>UnAuthUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Default\WayToEventCard.ascx.cs">
+      <DependentUpon>WayToEventCard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Default\WayToEventCard.ascx.designer.cs">
+      <DependentUpon>WayToEventCard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\ContractorsSelection.ascx.cs">
+      <DependentUpon>ContractorsSelection.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\ContractorsSelection.ascx.designer.cs">
+      <DependentUpon>ContractorsSelection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardBody.ascx.cs">
+      <DependentUpon>EventCardBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardBody.ascx.designer.cs">
+      <DependentUpon>EventCardBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardBodyEls\ContractorsList.ascx.cs">
+      <DependentUpon>ContractorsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardBodyEls\ContractorsList.ascx.designer.cs">
+      <DependentUpon>ContractorsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardCreator.ascx.cs">
+      <DependentUpon>EventCardCreator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardCreator.ascx.designer.cs">
+      <DependentUpon>EventCardCreator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardHeader.ascx.cs">
+      <DependentUpon>EventCardHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\EventCardHeader.ascx.designer.cs">
+      <DependentUpon>EventCardHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EventCard\SubcategoriesList.ascx.cs">
+      <DependentUpon>SubcategoriesList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EventCard\SubcategoriesList.ascx.designer.cs">
+      <DependentUpon>SubcategoriesList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Auth\Main.ascx.cs">
+      <DependentUpon>Main.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auth\Main.ascx.designer.cs">
+      <DependentUpon>Main.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigate\BreadCrumbs.ascx.cs">
+      <DependentUpon>BreadCrumbs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigate\BreadCrumbs.ascx.designer.cs">
+      <DependentUpon>BreadCrumbs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigate\CategoriesMenu.ascx.cs">
+      <DependentUpon>CategoriesMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigate\CategoriesMenu.ascx.designer.cs">
+      <DependentUpon>CategoriesMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigate\MenuSimple.ascx.cs">
+      <DependentUpon>MenuSimple.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigate\MenuSimple.ascx.designer.cs">
+      <DependentUpon>MenuSimple.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigate\LeftMenuBody.ascx.cs">
+      <DependentUpon>LeftMenuBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigate\LeftMenuBody.ascx.designer.cs">
+      <DependentUpon>LeftMenuBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigate\LeftMenuHeader.ascx.cs">
+      <DependentUpon>LeftMenuHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigate\LeftMenuHeader.ascx.designer.cs">
+      <DependentUpon>LeftMenuHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\User\FavouritesList.ascx.cs">
+      <DependentUpon>FavouritesList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\User\FavouritesList.ascx.designer.cs">
+      <DependentUpon>FavouritesList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\approve.ashx.cs">
+      <DependentUpon>approve.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.aspx.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messages.aspx.designer.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="catalog.aspx.cs">
+      <DependentUpon>catalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="catalog.aspx.designer.cs">
+      <DependentUpon>catalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\UIManager.cs" />
+    <Compile Include="Code\QueryStringManager.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contractor.aspx.cs">
+      <DependentUpon>Contractor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contractor.aspx.designer.cs">
+      <DependentUpon>Contractor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences.aspx.cs">
+      <DependentUpon>Preferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Preferences.aspx.designer.cs">
+      <DependentUpon>Preferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventCardPage.aspx.cs">
+      <DependentUpon>EventCardPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventCardPage.aspx.designer.cs">
+      <DependentUpon>EventCardPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Favourites.aspx.cs">
+      <DependentUpon>Favourites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Favourites.aspx.designer.cs">
+      <DependentUpon>Favourites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WTF.aspx.cs">
+      <DependentUpon>WTF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WTF.aspx.designer.cs">
+      <DependentUpon>WTF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateEventCard.aspx.cs">
+      <DependentUpon>CreateEventCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateEventCard.aspx.designer.cs">
+      <DependentUpon>CreateEventCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContractorCabinet.aspx.cs">
+      <DependentUpon>ContractorCabinet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContractorCabinet.aspx.designer.cs">
+      <DependentUpon>ContractorCabinet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WS\WS.asmx.cs">
+      <DependentUpon>WS.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YourDay.Basic\YourDay.POCO.csproj">
+      <Project>{91CAA73D-E20C-4ABC-9EE8-099AD229ED4D}</Project>
+      <Name>YourDay.POCO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.BLL\YourDay.BLL.csproj">
+      <Project>{6B15BF6A-87E5-4FB9-B9E4-BC2E6330F4F4}</Project>
+      <Name>YourDay.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.Constants\YourDay.Constants.csproj">
+      <Project>{692AF500-BD1C-4008-B573-37D803262A91}</Project>
+      <Name>YourDay.Constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.Helper\YourDay.Helper.csproj">
+      <Project>{605C9597-E74B-4204-B8E4-25F4472FC3A5}</Project>
+      <Name>YourDay.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.Masqaradue\YourDay.Masquaradue.csproj">
+      <Project>{FB858A1E-7BCF-46D5-BECF-22AD10965CE0}</Project>
+      <Name>YourDay.Masquaradue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.PicturesConverter\YourDay.Pictures.csproj">
+      <Project>{309a579e-af7a-4aaa-b9ee-7cddc266c07b}</Project>
+      <Name>YourDay.Pictures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourDay.Security\YourDay.Security.csproj">
+      <Project>{2DE2EFD5-E2F9-4ABE-8C32-E9D62C027A9E}</Project>
+      <Name>YourDay.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Articles\" />
+    <Folder Include="Images\asd_lvs\" />
+    <Folder Include="Images\tatryb\" />
+    <Folder Include="Pict\Bests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handlers\approve.ashx" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Snippets\ShortContactInfo.snippet" />
+    <None Include="Snippets\WhiteBox.snippet" />
+    <None Include="Video\1.flv" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3189</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

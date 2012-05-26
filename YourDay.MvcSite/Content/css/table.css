@@ -1,0 +1,11 @@
+table {width: 100%;}
+td,
+th {
+	padding: 0;
+	vertical-align: top;
+}
+table.va-middle td, td.va-middle, th.va-middle {vertical-align: middle;}
+
+/* Table list */
+.b-list-items td {padding: 0 20px 0 0;}
+	.b-list-items td.actions {padding: 0;}

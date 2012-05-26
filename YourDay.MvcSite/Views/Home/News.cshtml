@@ -1,0 +1,15 @@
+﻿@using YourDay.BLL
+<section class="b-promo-news col right">
+    <header class="header-more">
+        <h2 class="featured">Новости </h2>
+        <a href="javascript:;" class="more">Все ноовости</a>
+    </header>
+@foreach(var item in  Get.News().Take(4))
+{
+    <div class="news-item">
+        <span class="date">@item.DateTime.ToShortDateString()</span>
+        <h4 class="a-3"><a href="@Manager.GetNewsLink(item.Id)">@item.Title</a></h4>
+            @Manager.GetShortContent(item.Content, 25)
+    </div>
+    }
+</section>

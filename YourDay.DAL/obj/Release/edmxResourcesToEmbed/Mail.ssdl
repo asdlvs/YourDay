@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MailModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MailModelStoreContainer">
+    <EntitySet Name="MailQueue" EntityType="MailModel.Store.MailQueue" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MailType" EntityType="MailModel.Store.MailType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Security" EntityType="MailModel.Store.Security" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="MailModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_MailQueue_MailType" Association="MailModel.Store.FK_MailQueue_MailType">
+      <End Role="MailType" EntitySet="MailType" />
+      <End Role="MailQueue" EntitySet="MailQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MailQueue_Users" Association="MailModel.Store.FK_MailQueue_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MailQueue" EntitySet="MailQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Security_Users" Association="MailModel.Store.FK_Security_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Security" EntitySet="Security" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="MailQueue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="MailTypeId" Type="int" Nullable="false" />
+    <Property Name="IsProcessed" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MailType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Security">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Password" Type="varbinary(max)" />
+    <Property Name="Salt" Type="uniqueidentifier" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="AvatarOffset" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_MailQueue_MailType">
+    <End Role="MailType" Type="MailModel.Store.MailType" Multiplicity="1" />
+    <End Role="MailQueue" Type="MailModel.Store.MailQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MailType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MailQueue">
+        <PropertyRef Name="MailTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MailQueue_Users">
+    <End Role="Users" Type="MailModel.Store.Users" Multiplicity="1" />
+    <End Role="MailQueue" Type="MailModel.Store.MailQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MailQueue">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Security_Users">
+    <End Role="Users" Type="MailModel.Store.Users" Multiplicity="1" />
+    <End Role="Security" Type="MailModel.Store.Security" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Security">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

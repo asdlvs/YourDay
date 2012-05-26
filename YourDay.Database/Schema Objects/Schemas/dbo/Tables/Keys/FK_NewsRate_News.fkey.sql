@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[NewsRate]
+    ADD CONSTRAINT [FK_NewsRate_News] FOREIGN KEY ([NewsId]) REFERENCES [dbo].[News] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

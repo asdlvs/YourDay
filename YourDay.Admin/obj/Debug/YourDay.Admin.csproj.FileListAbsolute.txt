@@ -1,0 +1,7 @@
+E:\YourDay (2)\YourDay.Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\YourDay (2)\YourDay.Admin\bin\YourDay.Admin.dll
+E:\YourDay (2)\YourDay.Admin\bin\YourDay.Admin.pdb
+E:\YourDay (2)\YourDay.Admin\bin\YourDay.Helper.dll
+E:\YourDay (2)\YourDay.Admin\bin\YourDay.Helper.pdb
+E:\YourDay (2)\YourDay.Admin\obj\Debug\YourDay.Admin.dll
+E:\YourDay (2)\YourDay.Admin\obj\Debug\YourDay.Admin.pdb

@@ -1,0 +1,1734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="YourDayModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="YourDayModelStoreContainer">
+          <EntitySet Name="ArticleRate" EntityType="YourDayModel.Store.ArticleRate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Articles" EntityType="YourDayModel.Store.Articles" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Avatars" EntityType="YourDayModel.Store.Avatars" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Categories" EntityType="YourDayModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Cities" EntityType="YourDayModel.Store.Cities" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ClosedDays" EntityType="YourDayModel.Store.ClosedDays" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comments" EntityType="YourDayModel.Store.Comments" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ContractorCategories" EntityType="YourDayModel.Store.ContractorCategories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Contractors" EntityType="YourDayModel.Store.Contractors" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EventCardCategories" EntityType="YourDayModel.Store.EventCardCategories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EventCardCompany" EntityType="YourDayModel.Store.EventCardCompany" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EventCards" EntityType="YourDayModel.Store.EventCards" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EventCardType" EntityType="YourDayModel.Store.EventCardType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FavouriteItems" EntityType="YourDayModel.Store.FavouriteItems" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Media" EntityType="YourDayModel.Store.Media" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MediaRate" EntityType="YourDayModel.Store.MediaRate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="News" EntityType="YourDayModel.Store.News" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NewsRate" EntityType="YourDayModel.Store.NewsRate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Security" EntityType="YourDayModel.Store.Security" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SimpleUsers" EntityType="YourDayModel.Store.SimpleUsers" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SubCategories" EntityType="YourDayModel.Store.SubCategories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Users" EntityType="YourDayModel.Store.Users" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ArticleRate_Articles" Association="YourDayModel.Store.FK_ArticleRate_Articles">
+            <End Role="Articles" EntitySet="Articles" />
+            <End Role="ArticleRate" EntitySet="ArticleRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ArticleRate_Users" Association="YourDayModel.Store.FK_ArticleRate_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ArticleRate" EntitySet="ArticleRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Articles_Contractors" Association="YourDayModel.Store.FK_Articles_Contractors">
+            <End Role="Contractors" EntitySet="Contractors" />
+            <End Role="Articles" EntitySet="Articles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Avatars_Users" Association="YourDayModel.Store.FK_Avatars_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Avatars" EntitySet="Avatars" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ClosedDays_Contractors" Association="YourDayModel.Store.FK_ClosedDays_Contractors">
+            <End Role="Contractors" EntitySet="Contractors" />
+            <End Role="ClosedDays" EntitySet="ClosedDays" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Users" Association="YourDayModel.Store.FK_Comments_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Users1" Association="YourDayModel.Store.FK_Comments_Users1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Comments" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContractorCategories_Contractors" Association="YourDayModel.Store.FK_ContractorCategories_Contractors">
+            <End Role="Contractors" EntitySet="Contractors" />
+            <End Role="ContractorCategories" EntitySet="ContractorCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContractorCategories_SubCategories" Association="YourDayModel.Store.FK_ContractorCategories_SubCategories">
+            <End Role="SubCategories" EntitySet="SubCategories" />
+            <End Role="ContractorCategories" EntitySet="ContractorCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Contractors_Cities" Association="YourDayModel.Store.FK_Contractors_Cities">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="Contractors" EntitySet="Contractors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Contractors_Users" Association="YourDayModel.Store.FK_Contractors_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contractors" EntitySet="Contractors" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCategories_EventCards" Association="YourDayModel.Store.FK_EventCardCategories_EventCards">
+            <End Role="EventCards" EntitySet="EventCards" />
+            <End Role="EventCardCategories" EntitySet="EventCardCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCategories_SubCategories" Association="YourDayModel.Store.FK_EventCardCategories_SubCategories">
+            <End Role="SubCategories" EntitySet="SubCategories" />
+            <End Role="EventCardCategories" EntitySet="EventCardCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCompany_ContractorCategories" Association="YourDayModel.Store.FK_EventCardCompany_ContractorCategories">
+            <End Role="ContractorCategories" EntitySet="ContractorCategories" />
+            <End Role="EventCardCompany" EntitySet="EventCardCompany" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCompany_EventCardCategories" Association="YourDayModel.Store.FK_EventCardCompany_EventCardCategories">
+            <End Role="EventCardCategories" EntitySet="EventCardCategories" />
+            <End Role="EventCardCompany" EntitySet="EventCardCompany" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCards_EventCardType" Association="YourDayModel.Store.FK_EventCards_EventCardType">
+            <End Role="EventCardType" EntitySet="EventCardType" />
+            <End Role="EventCards" EntitySet="EventCards" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCards_Users" Association="YourDayModel.Store.FK_EventCards_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="EventCards" EntitySet="EventCards" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FavouriteItems_Users" Association="YourDayModel.Store.FK_FavouriteItems_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="FavouriteItems" EntitySet="FavouriteItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MediaRate_Media" Association="YourDayModel.Store.FK_MediaRate_Media">
+            <End Role="Media" EntitySet="Media" />
+            <End Role="MediaRate" EntitySet="MediaRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MediaRate_Users" Association="YourDayModel.Store.FK_MediaRate_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="MediaRate" EntitySet="MediaRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NewsRate_News" Association="YourDayModel.Store.FK_NewsRate_News">
+            <End Role="News" EntitySet="News" />
+            <End Role="NewsRate" EntitySet="NewsRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NewsRate_Users" Association="YourDayModel.Store.FK_NewsRate_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="NewsRate" EntitySet="NewsRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Security_Users" Association="YourDayModel.Store.FK_Security_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Security" EntitySet="Security" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SimpleUsers_Users" Association="YourDayModel.Store.FK_SimpleUsers_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="SimpleUsers" EntitySet="SimpleUsers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubCategories_Categories" Association="YourDayModel.Store.FK_SubCategories_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="SubCategories" EntitySet="SubCategories" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ArticleRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="AuthorId" Type="int" Nullable="false" />
+          <Property Name="IsPositive" Type="bit" Nullable="false" />
+          <Property Name="ArticleId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Articles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Content" Type="nvarchar(max)" />
+          <Property Name="AuthorId" Type="int" Nullable="false" />
+          <Property Name="Image" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Avatars">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="ImageName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Width" Type="int" />
+          <Property Name="Height" Type="int" />
+        </EntityType>
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Weight" Type="decimal" Nullable="false" Scale="4" />
+        </EntityType>
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="ClosedDays">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ContractorId" Type="int" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Comments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AuthorId" Type="int" Nullable="false" />
+          <Property Name="ReceiverId" Type="int" />
+          <Property Name="DateTime" Type="datetime" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" MaxLength="1500" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="RelationId" Type="int" Nullable="false" />
+          <Property Name="AlreadyRead" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContractorCategories">
+          <Key>
+            <PropertyRef Name="ContractorId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Name="ContractorId" Type="int" Nullable="false" />
+          <Property Name="SubcategoryId" Type="int" Nullable="false" />
+          <Property Name="OurLevel" Type="int" Nullable="false" />
+          <Property Name="CommonLevel" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Contractors">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Site" Type="nvarchar" MaxLength="50" />
+          <Property Name="VK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Facebook" Type="nvarchar" MaxLength="50" />
+          <Property Name="Twitter" Type="nvarchar" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" MaxLength="1500" />
+          <Property Name="Additional" Type="nvarchar" MaxLength="1500" />
+          <Property Name="City" Type="int" />
+          <Property Name="Activate" Type="bit" Nullable="false" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="EventCardCategories">
+          <Key>
+            <PropertyRef Name="EventCardId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Name="EventCardId" Type="int" Nullable="false" />
+          <Property Name="SubcategoryId" Type="int" Nullable="false" />
+          <Property Name="Budjet" Type="decimal" Scale="2" />
+          <Property Name="StartTime" Type="nvarchar" MaxLength="50" />
+          <Property Name="EndTime" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="EventCardCompany">
+          <Key>
+            <PropertyRef Name="EventCardId" />
+            <PropertyRef Name="ContractorId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Name="EventCardId" Type="int" Nullable="false" />
+          <Property Name="ContractorId" Type="int" Nullable="false" />
+          <Property Name="SubcategoryId" Type="int" Nullable="false" />
+          <Property Name="State" Type="int" Nullable="false" />
+          <Property Name="RelationKey" Type="varchar" MaxLength="17" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="EventCards">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Creator" Type="int" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="StartTime" Type="nvarchar" MaxLength="50" />
+          <Property Name="EndTime" Type="nvarchar" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="WhoSee" Type="int" Nullable="false" />
+          <Property Name="ShowToEventAgency" Type="bit" Nullable="false" />
+          <Property Name="ShowToContractors" Type="bit" Nullable="false" />
+          <Property Name="Budjet" Type="decimal" Nullable="false" Scale="2" />
+        </EntityType>
+        <EntityType Name="EventCardType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="FavouriteItems">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ItemId" Type="int" Nullable="false" />
+          <Property Name="Type" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Media">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Type" Type="int" />
+          <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+          <Property Name="RelationId" Type="varchar" MaxLength="17" />
+          <Property Name="RelationType" Type="int" />
+        </EntityType>
+        <EntityType Name="MediaRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EventCardCompanyMediaId" Type="int" Nullable="false" />
+          <Property Name="Author" Type="int" Nullable="false" />
+          <Property Name="IsPositive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="News">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" MaxLength="150" />
+          <Property Name="Content" Type="nvarchar" MaxLength="1500" />
+          <Property Name="Image" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="NewsRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AuthorId" Type="int" Nullable="false" />
+          <Property Name="NewsId" Type="int" Nullable="false" />
+          <Property Name="IsPositive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Security">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Password" Type="varbinary(max)" />
+          <Property Name="Salt" Type="uniqueidentifier" />
+          <Property Name="IsApproved" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SimpleUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SubCategories">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryId" Type="int" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Weight" Type="decimal" Scale="2" />
+          <Property Name="Persons" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Login" Type="nvarchar" MaxLength="50" />
+          <Property Name="EMail" Type="nvarchar" MaxLength="150" />
+          <Property Name="AvatarSrc" Type="nvarchar" MaxLength="350" />
+          <Property Name="IsDeleted" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_ArticleRate_Articles">
+          <End Role="Articles" Type="YourDayModel.Store.Articles" Multiplicity="1" />
+          <End Role="ArticleRate" Type="YourDayModel.Store.ArticleRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Articles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArticleRate">
+              <PropertyRef Name="ArticleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ArticleRate_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="ArticleRate" Type="YourDayModel.Store.ArticleRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArticleRate">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Articles_Contractors">
+          <End Role="Contractors" Type="YourDayModel.Store.Contractors" Multiplicity="1" />
+          <End Role="Articles" Type="YourDayModel.Store.Articles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractors">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Articles">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Avatars_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="0..1" />
+          <End Role="Avatars" Type="YourDayModel.Store.Avatars" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Avatars">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ClosedDays_Contractors">
+          <End Role="Contractors" Type="YourDayModel.Store.Contractors" Multiplicity="1" />
+          <End Role="ClosedDays" Type="YourDayModel.Store.ClosedDays" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractors">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClosedDays">
+              <PropertyRef Name="ContractorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="Comments" Type="YourDayModel.Store.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Users1">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="0..1" />
+          <End Role="Comments" Type="YourDayModel.Store.Comments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comments">
+              <PropertyRef Name="ReceiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContractorCategories_Contractors">
+          <End Role="Contractors" Type="YourDayModel.Store.Contractors" Multiplicity="1" />
+          <End Role="ContractorCategories" Type="YourDayModel.Store.ContractorCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractors">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractorCategories">
+              <PropertyRef Name="ContractorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContractorCategories_SubCategories">
+          <End Role="SubCategories" Type="YourDayModel.Store.SubCategories" Multiplicity="1" />
+          <End Role="ContractorCategories" Type="YourDayModel.Store.ContractorCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubCategories">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractorCategories">
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Contractors_Cities">
+          <End Role="Cities" Type="YourDayModel.Store.Cities" Multiplicity="0..1" />
+          <End Role="Contractors" Type="YourDayModel.Store.Contractors" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contractors">
+              <PropertyRef Name="City" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Contractors_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="Contractors" Type="YourDayModel.Store.Contractors" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contractors">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCategories_EventCards">
+          <End Role="EventCards" Type="YourDayModel.Store.EventCards" Multiplicity="1" />
+          <End Role="EventCardCategories" Type="YourDayModel.Store.EventCardCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCards">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCardCategories">
+              <PropertyRef Name="EventCardId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCategories_SubCategories">
+          <End Role="SubCategories" Type="YourDayModel.Store.SubCategories" Multiplicity="1" />
+          <End Role="EventCardCategories" Type="YourDayModel.Store.EventCardCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubCategories">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCardCategories">
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCompany_ContractorCategories">
+          <End Role="ContractorCategories" Type="YourDayModel.Store.ContractorCategories" Multiplicity="1" />
+          <End Role="EventCardCompany" Type="YourDayModel.Store.EventCardCompany" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractorCategories">
+              <PropertyRef Name="ContractorId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Principal>
+            <Dependent Role="EventCardCompany">
+              <PropertyRef Name="ContractorId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCompany_EventCardCategories">
+          <End Role="EventCardCategories" Type="YourDayModel.Store.EventCardCategories" Multiplicity="1" />
+          <End Role="EventCardCompany" Type="YourDayModel.Store.EventCardCompany" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCardCategories">
+              <PropertyRef Name="EventCardId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Principal>
+            <Dependent Role="EventCardCompany">
+              <PropertyRef Name="EventCardId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCards_EventCardType">
+          <End Role="EventCardType" Type="YourDayModel.Store.EventCardType" Multiplicity="1" />
+          <End Role="EventCards" Type="YourDayModel.Store.EventCards" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCardType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCards">
+              <PropertyRef Name="Type" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCards_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="EventCards" Type="YourDayModel.Store.EventCards" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCards">
+              <PropertyRef Name="Creator" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FavouriteItems_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="FavouriteItems" Type="YourDayModel.Store.FavouriteItems" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FavouriteItems">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MediaRate_Media">
+          <End Role="Media" Type="YourDayModel.Store.Media" Multiplicity="1" />
+          <End Role="MediaRate" Type="YourDayModel.Store.MediaRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Media">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MediaRate">
+              <PropertyRef Name="EventCardCompanyMediaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MediaRate_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="MediaRate" Type="YourDayModel.Store.MediaRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MediaRate">
+              <PropertyRef Name="Author" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NewsRate_News">
+          <End Role="News" Type="YourDayModel.Store.News" Multiplicity="1" />
+          <End Role="NewsRate" Type="YourDayModel.Store.NewsRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="News">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NewsRate">
+              <PropertyRef Name="NewsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NewsRate_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="NewsRate" Type="YourDayModel.Store.NewsRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NewsRate">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Security_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="Security" Type="YourDayModel.Store.Security" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Security">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SimpleUsers_Users">
+          <End Role="Users" Type="YourDayModel.Store.Users" Multiplicity="1" />
+          <End Role="SimpleUsers" Type="YourDayModel.Store.SimpleUsers" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SimpleUsers">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubCategories_Categories">
+          <End Role="Categories" Type="YourDayModel.Store.Categories" Multiplicity="1" />
+          <End Role="SubCategories" Type="YourDayModel.Store.SubCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SubCategories">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="GetRelationIdFromKey" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="key" Type="nvarchar" Mode="In" />
+          <Parameter Name="type" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="YourDayModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="YourDayEntities" annotation:LazyLoadingEnabled="false">
+          <EntitySet Name="Users" EntityType="YourDayModel.User" />
+          <EntitySet Name="Categories" EntityType="YourDayModel.Category" />
+          <EntitySet Name="SubCategories" EntityType="YourDayModel.SubCategory" />
+          <AssociationSet Name="FK_SubCategories_Categories" Association="YourDayModel.FK_SubCategories_Categories">
+            <End Role="Category" EntitySet="Categories" />
+            <End Role="SubCategory" EntitySet="SubCategories" />
+          </AssociationSet>
+          <EntitySet Name="ContractorCategories" EntityType="YourDayModel.ContractorCategory" />
+          <AssociationSet Name="FK_ContractorCategories_SubCategories" Association="YourDayModel.FK_ContractorCategories_SubCategories">
+            <End Role="SubCategory" EntitySet="SubCategories" />
+            <End Role="ContractorCategory" EntitySet="ContractorCategories" />
+          </AssociationSet>
+          <EntitySet Name="Cities" EntityType="YourDayModel.City" />
+          <AssociationSet Name="FK_Contractors_Cities" Association="YourDayModel.FK_Contractors_Cities">
+            <End Role="City" EntitySet="Cities" />
+            <End Role="Contractor" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContractorCategories_Contractors" Association="YourDayModel.FK_ContractorCategories_Contractors">
+            <End Role="Contractor" EntitySet="Users" />
+            <End Role="ContractorCategory" EntitySet="ContractorCategories" />
+          </AssociationSet>
+          <EntitySet Name="EventCardCompanies" EntityType="YourDayModel.EventCardCompany" />
+          <EntitySet Name="EventCards" EntityType="YourDayModel.EventCard" />
+          <AssociationSet Name="FK_EventCardCompany_ContractorCategories" Association="YourDayModel.FK_EventCardCompany_ContractorCategories">
+            <End Role="ContractorCategory" EntitySet="ContractorCategories" />
+            <End Role="EventCardCompany" EntitySet="EventCardCompanies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCompany_EventCards" Association="YourDayModel.FK_EventCardCompany_EventCards">
+            <End Role="EventCard" EntitySet="EventCards" />
+            <End Role="EventCardCompany" EntitySet="EventCardCompanies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCards_Users" Association="YourDayModel.FK_EventCards_Users">
+            <End EntitySet="Users" Role="User" />
+            <End EntitySet="EventCards" Role="EventCard" />
+          </AssociationSet>
+          <EntitySet Name="ArticleRates" EntityType="YourDayModel.ArticleRate" />
+          <EntitySet Name="Articles" EntityType="YourDayModel.Article" />
+          <EntitySet Name="News" EntityType="YourDayModel.News" />
+          <EntitySet Name="NewsRates" EntityType="YourDayModel.NewsRate" />
+          <AssociationSet Name="FK_ArticleRate_Articles" Association="YourDayModel.FK_ArticleRate_Articles">
+            <End Role="Article" EntitySet="Articles" />
+            <End Role="ArticleRate" EntitySet="ArticleRates" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ArticleRate_Users" Association="YourDayModel.FK_ArticleRate_Users">
+            <End EntitySet="Users" Role="User" />
+            <End EntitySet="ArticleRates" Role="ArticleRate" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Articles_Contractors" Association="YourDayModel.FK_Articles_Contractors">
+            <End Role="Contractor" EntitySet="Users" />
+            <End Role="Article" EntitySet="Articles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NewsRate_News" Association="YourDayModel.FK_NewsRate_News">
+            <End Role="News" EntitySet="News" />
+            <End Role="NewsRate" EntitySet="NewsRates" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NewsRate_Users" Association="YourDayModel.FK_NewsRate_Users">
+            <End EntitySet="Users" Role="User" />
+            <End EntitySet="NewsRates" Role="NewsRate" />
+          </AssociationSet>
+          <EntitySet Name="EventCardTypes" EntityType="YourDayModel.EventCardType" />
+          <AssociationSet Name="FK_EventCards_EventCardType" Association="YourDayModel.FK_EventCards_EventCardType">
+            <End Role="EventCardType" EntitySet="EventCardTypes" />
+            <End Role="EventCard" EntitySet="EventCards" />
+          </AssociationSet>
+          <EntitySet Name="ClosedDays" EntityType="YourDayModel.ClosedDay" />
+          <AssociationSet Name="FK_ClosedDays_Contractors" Association="YourDayModel.FK_ClosedDays_Contractors">
+            <End Role="Contractor" EntitySet="Users" />
+            <End Role="ClosedDay" EntitySet="ClosedDays" />
+          </AssociationSet>
+          <EntitySet Name="Comments" EntityType="YourDayModel.Comment" />
+          <AssociationSet Name="FK_Comments_Users" Association="YourDayModel.FK_Comments_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Comment" EntitySet="Comments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comments_Users1" Association="YourDayModel.FK_Comments_Users1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Comment" EntitySet="Comments" />
+          </AssociationSet>
+          <EntitySet Name="EventCardCategories" EntityType="YourDayModel.EventCardCategory" />
+          <AssociationSet Name="FK_EventCardCategories_EventCards" Association="YourDayModel.FK_EventCardCategories_EventCards">
+            <End Role="EventCard" EntitySet="EventCards" />
+            <End Role="EventCardCategory" EntitySet="EventCardCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCategories_SubCategories" Association="YourDayModel.FK_EventCardCategories_SubCategories">
+            <End Role="SubCategory" EntitySet="SubCategories" />
+            <End Role="EventCardCategory" EntitySet="EventCardCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EventCardCompany_EventCardCategories" Association="YourDayModel.FK_EventCardCompany_EventCardCategories">
+            <End Role="EventCardCategory" EntitySet="EventCardCategories" />
+            <End Role="EventCardCompany" EntitySet="EventCardCompanies" />
+          </AssociationSet>
+          <EntitySet Name="Medias" EntityType="YourDayModel.Media" />
+          <EntitySet Name="MediaRates" EntityType="YourDayModel.MediaRate" />
+          <AssociationSet Name="FK_MediaRate_Media" Association="YourDayModel.FK_MediaRate_Media">
+            <End Role="Medium" EntitySet="Medias" />
+            <End Role="MediaRate" EntitySet="MediaRates" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MediaRate_Users" Association="YourDayModel.FK_MediaRate_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="MediaRate" EntitySet="MediaRates" />
+          </AssociationSet>
+          <EntitySet Name="FavouriteItems" EntityType="YourDayModel.FavouriteItem" />
+          <AssociationSet Name="FK_FavouriteItems_Users" Association="YourDayModel.FK_FavouriteItems_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="FavouriteItem" EntitySet="FavouriteItems" />
+          </AssociationSet>
+          <EntitySet Name="Avatars" EntityType="YourDayModel.Avatar" />
+          <AssociationSet Name="FK_Avatars_Users" Association="YourDayModel.FK_Avatars_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Avatar" EntitySet="Avatars" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="User" Abstract="false">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="FirstName" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="LastName" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Login" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="EMail" MaxLength="150" FixedLength="false" Unicode="true" Type="String" />
+          <NavigationProperty Name="EventCards" Relationship="YourDayModel.FK_EventCards_Users" FromRole="User" ToRole="EventCard" />
+          <NavigationProperty Name="MediaRates" Relationship="YourDayModel.FK_EventCards_Users" FromRole="User" ToRole="EventCard" />
+          <NavigationProperty Name="ArticleRates" Relationship="YourDayModel.FK_ArticleRate_Users" FromRole="User" ToRole="ArticleRate" />
+          <NavigationProperty Name="NewsRates" Relationship="YourDayModel.FK_NewsRate_Users" FromRole="User" ToRole="NewsRate" />
+          <Property Type="Boolean" Name="IsDeleted" DefaultValue="false" Nullable="false" />
+          <NavigationProperty Name="Comments" Relationship="YourDayModel.FK_Comments_Users" FromRole="User" ToRole="Comment" />
+          <NavigationProperty Name="Comments1" Relationship="YourDayModel.FK_Comments_Users1" FromRole="User" ToRole="Comment" />
+          <Property Type="Binary" Name="Password" FixedLength="false" MaxLength="Max" />
+          <Property Type="Guid" Name="Salt" />
+          <Property Type="Boolean" Name="IsApproved" Nullable="false" />
+          <Property Type="String" Name="AvatarSrc" MaxLength="350" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FavouriteItems" Relationship="YourDayModel.FK_FavouriteItems_Users" FromRole="User" ToRole="FavouriteItem" />
+          <NavigationProperty Name="Avatars" Relationship="YourDayModel.FK_Avatars_Users" FromRole="User" ToRole="Avatar" />
+          
+        </EntityType>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="Weight" Nullable="false" Precision="18" Scale="4" />
+          <NavigationProperty Name="SubCategories" Relationship="YourDayModel.FK_SubCategories_Categories" FromRole="Category" ToRole="SubCategory" />
+        </EntityType>
+        <EntityType Name="SubCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="CategoryId" Nullable="false" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="Weight" Precision="18" Scale="2" />
+          <NavigationProperty Name="Category" Relationship="YourDayModel.FK_SubCategories_Categories" FromRole="SubCategory" ToRole="Category" />
+          <NavigationProperty Name="ContractorCategories" Relationship="YourDayModel.FK_ContractorCategories_SubCategories" FromRole="SubCategory" ToRole="ContractorCategory" />
+          <Property Type="String" Name="Persons" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EventCardCategories" Relationship="YourDayModel.FK_EventCardCategories_SubCategories" FromRole="SubCategory" ToRole="EventCardCategory" />
+        </EntityType>
+        <Association Name="FK_SubCategories_Categories">
+          <End Type="YourDayModel.Category" Role="Category" Multiplicity="1" />
+          <End Type="YourDayModel.SubCategory" Role="SubCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SubCategory">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ContractorCategory">
+          <Key>
+            <PropertyRef Name="ContractorId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Type="Int32" Name="ContractorId" Nullable="false" />
+          <Property Type="Int32" Name="SubcategoryId" Nullable="false" />
+          <Property Type="Int32" Name="OurLevel" Nullable="false" />
+          <Property Type="Int32" Name="CommonLevel" Nullable="false" />
+          <NavigationProperty Name="SubCategory" Relationship="YourDayModel.FK_ContractorCategories_SubCategories" FromRole="ContractorCategory" ToRole="SubCategory" />
+          <NavigationProperty Name="Contractor" Relationship="YourDayModel.FK_ContractorCategories_Contractors" FromRole="ContractorCategory" ToRole="Contractor" />
+          <NavigationProperty Name="EventCardCompanies" Relationship="YourDayModel.FK_EventCardCompany_ContractorCategories" FromRole="ContractorCategory" ToRole="EventCardCompany" />
+        </EntityType>
+        <Association Name="FK_ContractorCategories_SubCategories">
+          <End Type="YourDayModel.SubCategory" Role="SubCategory" Multiplicity="1" />
+          <End Type="YourDayModel.ContractorCategory" Role="ContractorCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractorCategory">
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contractors" Relationship="YourDayModel.FK_Contractors_Cities" FromRole="City" ToRole="Contractor" />
+        </EntityType>
+        <EntityType Name="Contractor" BaseType="YourDayModel.User">
+          <Property Type="String" Name="Site" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="VK" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Facebook" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Twitter" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Description" MaxLength="1500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Additional" MaxLength="1500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="CityId" />
+          <NavigationProperty Name="City" Relationship="YourDayModel.FK_Contractors_Cities" FromRole="Contractor" ToRole="City" />
+          <NavigationProperty Name="ContractorCategories" Relationship="YourDayModel.FK_ContractorCategories_Contractors" FromRole="Contractor" ToRole="ContractorCategory" />
+          <NavigationProperty Name="Articles" Relationship="YourDayModel.FK_Articles_Contractors" FromRole="Contractor" ToRole="Article" />
+          <Property Type="Boolean" Name="Activate" Nullable="false" />
+          <NavigationProperty Name="ClosedDays" Relationship="YourDayModel.FK_ClosedDays_Contractors" FromRole="Contractor" ToRole="ClosedDay" />
+          <Property Type="String" Name="Phone" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_Contractors_Cities">
+          <End Type="YourDayModel.City" Role="City" Multiplicity="0..1" />
+          <End Type="YourDayModel.Contractor" Role="Contractor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contractor">
+              <PropertyRef Name="CityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContractorCategories_Contractors">
+          <End Type="YourDayModel.Contractor" Role="Contractor" Multiplicity="1" />
+          <End Type="YourDayModel.ContractorCategory" Role="ContractorCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractor">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractorCategory">
+              <PropertyRef Name="ContractorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="EventCardCompany">
+          <Key>
+            <PropertyRef Name="EventCardId" />
+            <PropertyRef Name="ContractorId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Type="Int32" Name="EventCardId" Nullable="false" />
+          <Property Type="Int32" Name="ContractorId" Nullable="false" />
+          <Property Type="Int32" Name="SubcategoryId" Nullable="false" />
+          <NavigationProperty Name="ContractorCategory" Relationship="YourDayModel.FK_EventCardCompany_ContractorCategories" FromRole="EventCardCompany" ToRole="ContractorCategory" />
+          <Property Type="Int32" Name="State" Nullable="false" />
+          <NavigationProperty Name="EventCardCategory" Relationship="YourDayModel.FK_EventCardCompany_EventCardCategories" FromRole="EventCardCompany" ToRole="EventCardCategory" />
+          <Property Type="String" Name="RelationKey" MaxLength="17" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+          </EntityType>
+        <EntityType Name="EventCard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Creator" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="YourDayModel.FK_EventCards_Users" FromRole="EventCard" ToRole="User" />
+          <Property Type="DateTime" Name="Date" Nullable="false" Precision="0" />
+          <Property Type="Int32" Name="Type" Nullable="false" />
+          <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="Budjet" Precision="18" Scale="2" Nullable="false" />
+          <Property Type="Int32" Name="WhoSee" Nullable="false" />
+          <Property Type="Boolean" Name="ShowToEventAgency" annotation:StoreGeneratedPattern="None" Nullable="false" />
+          <Property Type="Boolean" Name="ShowToContractors" Nullable="false" />
+          <NavigationProperty Name="EventCardType" Relationship="YourDayModel.FK_EventCards_EventCardType" FromRole="EventCard" ToRole="EventCardType" />
+          <NavigationProperty Name="EventCardCategories" Relationship="YourDayModel.FK_EventCardCategories_EventCards" FromRole="EventCard" ToRole="EventCardCategory" />
+          <Property Type="String" Name="StartTime" Unicode="true" FixedLength="false" MaxLength="50" />
+          <Property Type="String" Name="EndTime" Unicode="true" FixedLength="false" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_EventCardCompany_ContractorCategories">
+          <End Type="YourDayModel.ContractorCategory" Role="ContractorCategory" Multiplicity="1" />
+          <End Type="YourDayModel.EventCardCompany" Role="EventCardCompany" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ContractorCategory">
+              <PropertyRef Name="ContractorId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Principal>
+            <Dependent Role="EventCardCompany">
+              <PropertyRef Name="ContractorId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCompany_EventCards">
+          <End Type="YourDayModel.EventCard" Role="EventCard" Multiplicity="1" />
+          <End Type="YourDayModel.EventCardCompany" Role="EventCardCompany" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCard">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCardCompany">
+              <PropertyRef Name="EventCardId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCards_Users">
+          <End Type="YourDayModel.User" Multiplicity="1" Role="User" />
+          <End Type="YourDayModel.EventCard" Multiplicity="*" Role="EventCard" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCard">
+              <PropertyRef Name="Creator" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ArticleRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="AuthorId" Nullable="false" />
+          <Property Type="Boolean" Name="IsPositive" Nullable="false" />
+          <Property Type="Int32" Name="ArticleId" Nullable="false" />
+          <NavigationProperty Name="Article" Relationship="YourDayModel.FK_ArticleRate_Articles" FromRole="ArticleRate" ToRole="Article" />
+          <NavigationProperty Name="Author" Relationship="YourDayModel.FK_ArticleRate_Users" FromRole="ArticleRate" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Article">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Content" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="AuthorId" Nullable="false" />
+          <Property Type="String" Name="Image" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ArticleRates" Relationship="YourDayModel.FK_ArticleRate_Articles" FromRole="Article" ToRole="ArticleRate" />
+          <NavigationProperty Name="Author" Relationship="YourDayModel.FK_Articles_Contractors" FromRole="Article" ToRole="Contractor" />
+          <Property Type="DateTime" Name="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="News">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Content" MaxLength="1500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Image" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="DateTime" Precision="3" />
+          <NavigationProperty Name="NewsRates" Relationship="YourDayModel.FK_NewsRate_News" FromRole="News" ToRole="NewsRate" />
+        </EntityType>
+        <EntityType Name="NewsRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="AuthorId" Nullable="false" />
+          <Property Type="Int32" Name="NewsId" Nullable="false" />
+          <Property Type="Boolean" Name="IsPositive" Nullable="false" />
+          <NavigationProperty Name="News" Relationship="YourDayModel.FK_NewsRate_News" FromRole="NewsRate" ToRole="News" />
+          <NavigationProperty Name="Author" Relationship="YourDayModel.FK_NewsRate_Users" FromRole="NewsRate" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_ArticleRate_Articles">
+          <End Type="YourDayModel.Article" Role="Article" Multiplicity="1" />
+          <End Type="YourDayModel.ArticleRate" Role="ArticleRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Article">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArticleRate">
+              <PropertyRef Name="ArticleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ArticleRate_Users">
+          <End Type="YourDayModel.User" Multiplicity="1" Role="User" />
+          <End Type="YourDayModel.ArticleRate" Multiplicity="*" Role="ArticleRate" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ArticleRate">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Articles_Contractors">
+          <End Type="YourDayModel.Contractor" Role="Contractor" Multiplicity="1" />
+          <End Type="YourDayModel.Article" Role="Article" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractor">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Article">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NewsRate_News">
+          <End Type="YourDayModel.News" Role="News" Multiplicity="1" />
+          <End Type="YourDayModel.NewsRate" Role="NewsRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="News">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NewsRate">
+              <PropertyRef Name="NewsId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NewsRate_Users">
+          <End Type="YourDayModel.User" Multiplicity="1" Role="User" />
+          <End Type="YourDayModel.NewsRate" Multiplicity="*" Role="NewsRate" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="NewsRate">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="SimpleUser" BaseType="YourDayModel.User">
+        </EntityType>
+        <EntityType Name="EventCardType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Title" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EventCards" Relationship="YourDayModel.FK_EventCards_EventCardType" FromRole="EventCardType" ToRole="EventCard" />
+        </EntityType>
+        <Association Name="FK_EventCards_EventCardType">
+          <End Type="YourDayModel.EventCardType" Role="EventCardType" Multiplicity="1" />
+          <End Type="YourDayModel.EventCard" Role="EventCard" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCardType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCard">
+              <PropertyRef Name="Type" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ClosedDay">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ContractorId" Nullable="false" />
+          <Property Type="DateTime" Name="Date" Nullable="false" Precision="0" />
+          <NavigationProperty Name="Contractor" Relationship="YourDayModel.FK_ClosedDays_Contractors" FromRole="ClosedDay" ToRole="Contractor" />
+        </EntityType>
+        <Association Name="FK_ClosedDays_Contractors">
+          <End Type="YourDayModel.Contractor" Role="Contractor" Multiplicity="1" />
+          <End Type="YourDayModel.ClosedDay" Role="ClosedDay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contractor">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ClosedDay">
+              <PropertyRef Name="ContractorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="AuthorId" Nullable="false" />
+          <Property Type="Int32" Name="ReceiverId" />
+          <Property Type="DateTime" Name="DateTime" Nullable="false" Precision="3" />
+          <Property Type="String" Name="Text" MaxLength="1500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Type" Nullable="false" />
+          <Property Type="Int32" Name="RelationId" Nullable="false" />
+          <NavigationProperty Name="Author" Relationship="YourDayModel.FK_Comments_Users" FromRole="Comment" ToRole="User" />
+          <NavigationProperty Name="Receiver" Relationship="YourDayModel.FK_Comments_Users1" FromRole="Comment" ToRole="User" />
+          <Property Type="Boolean" Name="AlreadyRead" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Comments_Users">
+          <End Type="YourDayModel.User" Role="User" Multiplicity="1" />
+          <End Type="YourDayModel.Comment" Role="Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comments_Users1">
+          <End Type="YourDayModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="YourDayModel.Comment" Role="Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="ReceiverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="EventCardCategory">
+          <Key>
+            <PropertyRef Name="EventCardId" />
+            <PropertyRef Name="SubcategoryId" />
+          </Key>
+          <Property Type="Int32" Name="EventCardId" Nullable="false" />
+          <Property Type="Int32" Name="SubcategoryId" Nullable="false" />
+          <NavigationProperty Name="EventCard" Relationship="YourDayModel.FK_EventCardCategories_EventCards" FromRole="EventCardCategory" ToRole="EventCard" />
+          <NavigationProperty Name="SubCategory" Relationship="YourDayModel.FK_EventCardCategories_SubCategories" FromRole="EventCardCategory" ToRole="SubCategory" />
+          <NavigationProperty Name="EventCardCompanies" Relationship="YourDayModel.FK_EventCardCompany_EventCardCategories" FromRole="EventCardCategory" ToRole="EventCardCompany" />
+          <Property Type="Decimal" Name="Budjet" Precision="18" Scale="2" />
+          <Property Type="String" Name="StartTime" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Type="String" Name="EndTime" Nullable="true" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_EventCardCategories_EventCards">
+          <End Type="YourDayModel.EventCard" Role="EventCard" Multiplicity="1" />
+          <End Type="YourDayModel.EventCardCategory" Role="EventCardCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCard">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCardCategory">
+              <PropertyRef Name="EventCardId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCategories_SubCategories">
+          <End Type="YourDayModel.SubCategory" Role="SubCategory" Multiplicity="1" />
+          <End Type="YourDayModel.EventCardCategory" Role="EventCardCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="EventCardCategory">
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EventCardCompany_EventCardCategories">
+          <End Type="YourDayModel.EventCardCategory" Role="EventCardCategory" Multiplicity="1" />
+          <End Type="YourDayModel.EventCardCompany" Role="EventCardCompany" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EventCardCategory">
+              <PropertyRef Name="EventCardId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Principal>
+            <Dependent Role="EventCardCompany">
+              <PropertyRef Name="EventCardId" />
+              <PropertyRef Name="SubcategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Media">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Type" />
+          <Property Type="String" Name="Description" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="RelationId" MaxLength="17" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="RelationType" />
+          <NavigationProperty Name="MediaRates" Relationship="YourDayModel.FK_MediaRate_Media" FromRole="Medium" ToRole="MediaRate" />
+        </EntityType>
+        <EntityType Name="MediaRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="EventCardCompanyMediaId" Nullable="false" />
+          <Property Type="Int32" Name="AuthorId" Nullable="false" />
+          <Property Type="Boolean" Name="IsPositive" Nullable="false" />
+          <NavigationProperty Name="Media" Relationship="YourDayModel.FK_MediaRate_Media" FromRole="MediaRate" ToRole="Medium" />
+          <NavigationProperty Name="Author" Relationship="YourDayModel.FK_MediaRate_Users" FromRole="MediaRate" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_MediaRate_Media">
+          <End Type="YourDayModel.Media" Role="Medium" Multiplicity="1" />
+          <End Type="YourDayModel.MediaRate" Role="MediaRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medium">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MediaRate">
+              <PropertyRef Name="EventCardCompanyMediaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MediaRate_Users">
+          <End Type="YourDayModel.User" Role="User" Multiplicity="1" />
+          <End Type="YourDayModel.MediaRate" Role="MediaRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MediaRate">
+              <PropertyRef Name="AuthorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="FavouriteItem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="UserId" Nullable="false" />
+          <Property Type="Int32" Name="ItemId" Nullable="false" />
+          <Property Type="Int32" Name="Type" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="YourDayModel.FK_FavouriteItems_Users" FromRole="FavouriteItem" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_FavouriteItems_Users">
+          <End Type="YourDayModel.User" Role="User" Multiplicity="1" />
+          <End Type="YourDayModel.FavouriteItem" Role="FavouriteItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FavouriteItem">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Avatar">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="String" Name="ImageName" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Width" />
+          <Property Type="Int32" Name="Height" />
+          <NavigationProperty Name="User" Relationship="YourDayModel.FK_Avatars_Users" FromRole="Avatar" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_Avatars_Users">
+          <End Type="YourDayModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="YourDayModel.Avatar" Role="Avatar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Avatar">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="YourDayModelStoreContainer" CdmEntityContainer="YourDayEntities">
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="IsTypeOf(YourDayModel.User)">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="AvatarSrc" ColumnName="AvatarSrc" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="EMail" ColumnName="EMail" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+              </MappingFragment>
+              <MappingFragment StoreEntitySet="Security">
+                <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+                <ScalarProperty Name="Salt" ColumnName="Salt" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(YourDayModel.Contractor)">
+              <MappingFragment StoreEntitySet="Contractors">
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Activate" ColumnName="Activate" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Site" ColumnName="Site" />
+                <ScalarProperty Name="VK" ColumnName="VK" />
+                <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+                <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Additional" ColumnName="Additional" />
+                <ScalarProperty Name="CityId" ColumnName="City" />
+              </MappingFragment>
+            </EntityTypeMapping>
+            <EntityTypeMapping TypeName="IsTypeOf(YourDayModel.SimpleUser)">
+              <MappingFragment StoreEntitySet="SimpleUsers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="YourDayModel.Category">
+              <MappingFragment StoreEntitySet="Categories">
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SubCategories">
+            <EntityTypeMapping TypeName="YourDayModel.SubCategory">
+              <MappingFragment StoreEntitySet="SubCategories">
+                <ScalarProperty Name="Persons" ColumnName="Persons" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContractorCategories">
+            <EntityTypeMapping TypeName="YourDayModel.ContractorCategory">
+              <MappingFragment StoreEntitySet="ContractorCategories">
+                <ScalarProperty Name="CommonLevel" ColumnName="CommonLevel" />
+                <ScalarProperty Name="OurLevel" ColumnName="OurLevel" />
+                <ScalarProperty Name="SubcategoryId" ColumnName="SubcategoryId" />
+                <ScalarProperty Name="ContractorId" ColumnName="ContractorId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cities">
+            <EntityTypeMapping TypeName="YourDayModel.City">
+              <MappingFragment StoreEntitySet="Cities">
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EventCardCompanies">
+            <EntityTypeMapping TypeName="YourDayModel.EventCardCompany">
+              <MappingFragment StoreEntitySet="EventCardCompany">
+                <ScalarProperty Name="RelationKey" ColumnName="RelationKey" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="SubcategoryId" ColumnName="SubcategoryId" />
+                <ScalarProperty Name="ContractorId" ColumnName="ContractorId" />
+                <ScalarProperty Name="EventCardId" ColumnName="EventCardId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EventCards">
+            <EntityTypeMapping TypeName="YourDayModel.EventCard">
+              <MappingFragment StoreEntitySet="EventCards">
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="ShowToContractors" ColumnName="ShowToContractors" />
+                <ScalarProperty Name="ShowToEventAgency" ColumnName="ShowToEventAgency" />
+                <ScalarProperty Name="WhoSee" ColumnName="WhoSee" />
+                <ScalarProperty Name="Budjet" ColumnName="Budjet" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ArticleRates">
+            <EntityTypeMapping TypeName="YourDayModel.ArticleRate">
+              <MappingFragment StoreEntitySet="ArticleRate">
+                <ScalarProperty Name="ArticleId" ColumnName="ArticleId" />
+                <ScalarProperty Name="IsPositive" ColumnName="IsPositive" />
+                <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Articles">
+            <EntityTypeMapping TypeName="YourDayModel.Article">
+              <MappingFragment StoreEntitySet="Articles">
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="News">
+            <EntityTypeMapping TypeName="YourDayModel.News">
+              <MappingFragment StoreEntitySet="News">
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NewsRates">
+            <EntityTypeMapping TypeName="YourDayModel.NewsRate">
+              <MappingFragment StoreEntitySet="NewsRate">
+                <ScalarProperty Name="IsPositive" ColumnName="IsPositive" />
+                <ScalarProperty Name="NewsId" ColumnName="NewsId" />
+                <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EventCardCategories">
+            <EntityTypeMapping TypeName="YourDayModel.EventCardCategory">
+              <MappingFragment StoreEntitySet="EventCardCategories">
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="Budjet" ColumnName="Budjet" />
+                <ScalarProperty Name="SubcategoryId" ColumnName="SubcategoryId" />
+                <ScalarProperty Name="EventCardId" ColumnName="EventCardId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EventCardTypes">
+            <EntityTypeMapping TypeName="YourDayModel.EventCardType">
+              <MappingFragment StoreEntitySet="EventCardType">
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ClosedDays">
+            <EntityTypeMapping TypeName="YourDayModel.ClosedDay">
+              <MappingFragment StoreEntitySet="ClosedDays">
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ContractorId" ColumnName="ContractorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comments">
+            <EntityTypeMapping TypeName="YourDayModel.Comment">
+              <MappingFragment StoreEntitySet="Comments">
+                <ScalarProperty Name="AlreadyRead" ColumnName="AlreadyRead" />
+                <ScalarProperty Name="RelationId" ColumnName="RelationId" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="ReceiverId" ColumnName="ReceiverId" />
+                <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Medias">
+            <EntityTypeMapping TypeName="IsTypeOf(YourDayModel.Media)">
+              <MappingFragment StoreEntitySet="Media">
+                <ScalarProperty Name="RelationType" ColumnName="RelationType" />
+                <ScalarProperty Name="RelationId" ColumnName="RelationId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MediaRates">
+            <EntityTypeMapping TypeName="IsTypeOf(YourDayModel.MediaRate)">
+              <MappingFragment StoreEntitySet="MediaRate">
+                <ScalarProperty Name="AuthorId" ColumnName="Author" />
+                <ScalarProperty Name="IsPositive" ColumnName="IsPositive" />
+                <ScalarProperty Name="EventCardCompanyMediaId" ColumnName="EventCardCompanyMediaId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FavouriteItems">
+            <EntityTypeMapping TypeName="YourDayModel.FavouriteItem">
+              <MappingFragment StoreEntitySet="FavouriteItems">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Avatars">
+            <EntityTypeMapping TypeName="YourDayModel.Avatar">
+              <MappingFragment StoreEntitySet="Avatars">
+                <ScalarProperty Name="Height" ColumnName="Height" />
+                <ScalarProperty Name="Width" ColumnName="Width" />
+                <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="YourDay" ShowGrid="true" SnapToGrid="false" ZoomLevel="80">
+        <EntityTypeShape EntityType="YourDayModel.User" PointX="0.75" PointY="16.25" Width="3.125" Height="4.0956022135416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourDayModel.Category" Width="1.5" PointX="6.5000009999999993" PointY="6.2403564453125" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="YourDayModel.SubCategory" Width="1.5" PointX="8.750001" PointY="5.8557535807291679" Height="2.5571907552083317" />
+        <AssociationConnector Association="YourDayModel.FK_SubCategories_Categories" >
+          <ConnectorPoint PointX="8.000001" PointY="7.1343489583333337" />
+          <ConnectorPoint PointX="8.750001" PointY="7.1343489583333337" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.ContractorCategory" Width="2.125" PointX="11.125" PointY="16.826904296875" Height="2.3648893229166674" />
+        <AssociationConnector Association="YourDayModel.FK_ContractorCategories_SubCategories" >
+          <ConnectorPoint PointX="10.25" PointY="6.7083081428527827" />
+          <ConnectorPoint PointX="13.09375" PointY="6.7083081428527827" />
+          <ConnectorPoint PointX="13.09375" PointY="16.875" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.City" Width="1.5" PointX="5.6249994999999995" PointY="23.672506510416667" Height="1.595683593749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="YourDayModel.Contractor" Width="1.5" PointX="2.125" PointY="26" Height="3.518697916666671" />
+        <AssociationConnector Association="YourDayModel.FK_Contractors_Cities" >
+          <ConnectorPoint PointX="6.65625" PointY="25.220683593749996" />
+          <ConnectorPoint PointX="6.65625" PointY="26.704744329507619" />
+          <ConnectorPoint PointX="3.625" PointY="26.704744329507619" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_ContractorCategories_Contractors" >
+          <ConnectorPoint PointX="3.625" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="6.572916666666667" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="6.739583333333333" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="10.791666666666666" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="10.958333333333334" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="12" PointY="26.284483659015237" />
+          <ConnectorPoint PointX="12" PointY="19.239889322916667" />
+        </AssociationConnector>
+        <InheritanceConnector ManuallyRouted="false" EntityType="YourDayModel.Contractor">
+          <ConnectorPoint PointX="2.3125" PointY="20.345602213541667" />
+          <ConnectorPoint PointX="2.3125" PointY="20.59" />
+          <ConnectorPoint PointX="3.285" PointY="20.59" />
+          <ConnectorPoint PointX="3.285" PointY="25.76" />
+          <ConnectorPoint PointX="2.875" PointY="25.76" />
+          <ConnectorPoint PointX="2.875" PointY="26" />
+        </InheritanceConnector>
+        <EntityTypeShape EntityType="YourDayModel.EventCardCompany" Width="2.625" PointX="14.125" PointY="14.75" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="YourDayModel.EventCard" Width="2.625" PointX="7.625" PointY="15.125" Height="3.9033007812500031" />
+        <AssociationConnector Association="YourDayModel.FK_EventCardCompany_ContractorCategories" >
+          <ConnectorPoint PointX="13.25" PointY="18.177389822916666" />
+          <ConnectorPoint PointX="15.4375" PointY="18.177389822916666" />
+          <ConnectorPoint PointX="15.4375" PointY="17.114889322916667" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_EventCardCompany_EventCards" >
+          <ConnectorPoint PointX="10.25" PointY="16.153595377604166" />
+          <ConnectorPoint PointX="13.010416666666666" PointY="16.153595377604166" />
+          <ConnectorPoint PointX="13.177083333333334" PointY="16.153595377604166" />
+          <ConnectorPoint PointX="14.125" PointY="16.153595377604166" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_EventCards_Users">
+          <ConnectorPoint PointX="3.875" PointY="16.417697977193196" />
+          <ConnectorPoint PointX="4.166666666666667" PointY="16.417697977193196" />
+          <ConnectorPoint PointX="4.333333333333333" PointY="16.417697977193196" />
+          <ConnectorPoint PointX="7.625" PointY="16.417697977193196" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.ArticleRate" Width="1.5" PointX="12.375" PointY="20.889043782552086" Height="2.172587890624996" />
+        <EntityTypeShape EntityType="YourDayModel.Article" Width="1.5" PointX="10.1249995" PointY="23.114635416666665" Height="2.5571907552083388" />
+        <EntityTypeShape EntityType="YourDayModel.News" Width="1.5" PointX="4.6250005000000005" PointY="3.0480550130208321" Height="2.1725878906250031" />
+        <EntityTypeShape EntityType="YourDayModel.NewsRate" Width="1.5" PointX="4.6250005000000005" PointY="17.048055013020836" Height="2.172587890624996" />
+        <AssociationConnector Association="YourDayModel.FK_ArticleRate_Articles" >
+          <ConnectorPoint PointX="11.6249995" PointY="24.393230794270835" />
+          <ConnectorPoint PointX="11.916666666666666" PointY="24.393230794270835" />
+          <ConnectorPoint PointX="12.083333333333334" PointY="24.393230794270835" />
+          <ConnectorPoint PointX="13.125" PointY="24.393230794270835" />
+          <ConnectorPoint PointX="13.125" PointY="23.061631673177082" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_ArticleRate_Users">
+          <ConnectorPoint PointX="3.875" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="6.447916666666667" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="6.614583333333333" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="11.916666666666666" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="12.083333333333334" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="13.59375" PointY="19.823995768229167" />
+          <ConnectorPoint PointX="13.59375" PointY="20.875" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_Articles_Contractors" >
+          <ConnectorPoint PointX="3.625" PointY="26.494613994261428" />
+          <ConnectorPoint PointX="6.572916666666667" PointY="26.494613994261428" />
+          <ConnectorPoint PointX="6.739583333333333" PointY="26.494613994261428" />
+          <ConnectorPoint PointX="10.875" PointY="26.494613994261428" />
+          <ConnectorPoint PointX="10.875" PointY="25.682190755208339" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_NewsRate_News" >
+          <ConnectorPoint PointX="4.625" PointY="5.1725878906250031" />
+          <ConnectorPoint PointX="4.25" PointY="5.5475878906250031" />
+          <ConnectorPoint PointX="4.25" PointY="16.623847153846153" />
+          <ConnectorPoint PointX="4.6261528461538459" PointY="17" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_NewsRate_Users">
+          <ConnectorPoint PointX="3.875" PointY="18.086293945312498" />
+          <ConnectorPoint PointX="4.625" PointY="18.086293945312498" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.SimpleUser" Width="1.5" PointX="1.5625" PointY="20.739848632812503" Height="1.018779296874996" />
+        <InheritanceConnector EntityType="YourDayModel.SimpleUser" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.3125" PointY="20.345602213541667" />
+          <ConnectorPoint PointX="2.3125" PointY="20.51" />
+          <ConnectorPoint PointX="2.375" PointY="20.51" />
+          <ConnectorPoint PointX="2.375" PointY="20.75" />
+        </InheritanceConnector>
+        <EntityTypeShape EntityType="YourDayModel.EventCardType" Width="1.5" PointX="5.3750005000000005" PointY="20.336507161458332" Height="1.5956835937500031" />
+        <AssociationConnector Association="YourDayModel.FK_EventCards_EventCardType" >
+          <ConnectorPoint PointX="6.53125" PointY="20.375" />
+          <ConnectorPoint PointX="6.53125" PointY="16.710395954386392" />
+          <ConnectorPoint PointX="7.625" PointY="16.710395954386392" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.ClosedDay" Width="1.5" PointX="10.1249995" PointY="20.576650390624998" Height="1.7879850260416674" />
+        <AssociationConnector Association="YourDayModel.FK_ClosedDays_Contractors" >
+          <ConnectorPoint PointX="3.5" PointY="26" />
+          <ConnectorPoint PointX="3.5" PointY="22.223084309895835" />
+          <ConnectorPoint PointX="10.125" PointY="22.223084309895835" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.Comment" Width="1.5" PointX="4.625" PointY="27.125" Height="2.9417936197916674" />
+        <AssociationConnector Association="YourDayModel.FK_Comments_Users" >
+          <ConnectorPoint PointX="1.0372308360528946" PointY="20.345602213541667" />
+          <ConnectorPoint PointX="1.0372308360528946" PointY="29.925763383470169" />
+          <ConnectorPoint PointX="4.625" PointY="29.925763383470169" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_Comments_Users1" >
+          <ConnectorPoint PointX="1.3869666721057892" PointY="20.345602213541667" />
+          <ConnectorPoint PointX="1.3869666721057892" PointY="29.722228147148687" />
+          <ConnectorPoint PointX="4.625" PointY="29.722228147148687" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.EventCardCategory" Width="2.375" PointX="10.5" PointY="12.875" Height="2.5571907552083335" />
+        <AssociationConnector Association="YourDayModel.FK_EventCardCategories_EventCards" >
+          <ConnectorPoint PointX="8.9375" PointY="15.125" />
+          <ConnectorPoint PointX="8.9375" PointY="13.9999995" />
+          <ConnectorPoint PointX="10.5" PointY="13.9999995" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_EventCardCategories_SubCategories" >
+          <ConnectorPoint PointX="10.25" PointY="7.601501949030558" />
+          <ConnectorPoint PointX="11.6875" PointY="7.601501949030558" />
+          <ConnectorPoint PointX="11.6875" PointY="12.875" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_EventCardCompany_EventCardCategories" >
+          <ConnectorPoint PointX="12.875" PointY="15.091095377604166" />
+          <ConnectorPoint PointX="13.010416666666666" PointY="15.091095377604166" />
+          <ConnectorPoint PointX="13.177083333333334" PointY="15.091095377604166" />
+          <ConnectorPoint PointX="14.125" PointY="15.091095377604166" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.Media" Width="1.5" PointX="4.6250005000000005" PointY="9.951904296875" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="YourDayModel.MediaRate" Width="1.5" PointX="4.6250005000000005" PointY="14.048055013020832" Height="2.1725878906250031" />
+        <AssociationConnector Association="YourDayModel.FK_MediaRate_Media" >
+          <ConnectorPoint PointX="5.3750005000000005" PointY="12.316793619791667" />
+          <ConnectorPoint PointX="5.3750005000000005" PointY="14.048055013020832" />
+        </AssociationConnector>
+        <AssociationConnector Association="YourDayModel.FK_MediaRate_Users" >
+          <ConnectorPoint PointX="2.3125" PointY="16.25" />
+          <ConnectorPoint PointX="2.3125" PointY="15.086293945312502" />
+          <ConnectorPoint PointX="4.166666666666667" PointY="15.086293945312502" />
+          <ConnectorPoint PointX="4.333333333333333" PointY="15.086293945312502" />
+          <ConnectorPoint PointX="4.625" PointY="15.086293945312502" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="YourDayModel.FavouriteItem" Width="1.5" PointX="15.286458329064772" PointY="27.132812520372681" />
+        <AssociationConnector Association="YourDayModel.FK_FavouriteItems_Users" />
+        <EntityTypeShape EntityType="YourDayModel.Avatar" Width="1.5" PointX="6.9863556078571616" PointY="29.299144877725816" />
+        <AssociationConnector Association="YourDayModel.FK_Avatars_Users" />
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

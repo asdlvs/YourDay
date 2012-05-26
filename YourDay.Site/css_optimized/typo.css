@@ -1,0 +1,56 @@
+body {
+	font: .75em/1.5 Arial, sans-serif;
+}
+
+a:focus {outline: none;}
+
+/**
+ * Colors
+ */
+
+/* Black */
+.nav-main .nav-item a,
+.b-intro .intro-text,
+.c-1 {color: #000;}
+
+.c-2 {color: #707070;} /* grey */
+a, .a-1 {color: #8e3373;} /* link color */
+a:visited, .a-2 {color: #a07d97;} /* visited link color */
+
+/* White */
+.nav-breadcrumbs,
+.nav-breadcrumbs a:after,
+.b-user-menu a,
+.nav-main .cur a,
+.nav-main .expanded a,
+footer,
+section header,
+.a-2 {color: #fff;}
+
+/* Gold */
+.b-user-menu .logout a,
+.a-3 {color: #d7bf5e;}
+
+.c-3 {color: #719321;} /* pale green */
+
+h2 {
+	margin: 0 0 .4em;
+	font-weight: normal;
+	}
+	section header h2 {font-size: 2em;}
+	
+h3 {margin: 0;}
+h3 a {text-shadow: 0 1px 0 #fff;}
+
+
+.featured {font-family: LobsterRegular, serif;}
+
+@font-face {
+	font-family: 'LobsterRegular';
+	src: url('../fonts/lobster-webfont.eot');
+	src: url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lobster-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+

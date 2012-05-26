@@ -1,0 +1,107 @@
+﻿.bg
+{
+    background-image:url('/Pict/Catalog/TopContractorBG.png');
+   /* width:679px;
+    height:315px;*/
+    width:726px;
+    height:362px;
+   
+    background-repeat:no-repeat;
+    
+    
+    }
+.plate
+{
+     padding: 20px 20px 0px 20px;
+    width:679px;
+    height:315px;
+    }    
+    
+.addinfo
+{
+    display:table-row;
+    }  
+    
+.shortinfo
+{
+    background-image:url('/Pict/Catalog/shortContractorBG.png');
+    width:726px;
+    height:97px;
+    background-repeat:no-repeat;
+    display:block;
+    }   
+    
+.shortInfoContentDiv      
+{
+    width:679px;
+    height:51px;
+    padding: 20px 20px 0px 20px;
+    }
+  
+    
+ 
+    
+   
+    
+.second .good
+{
+    color:#719321;
+    }   
+.second .bad
+{
+    color:#cf0241;
+    }  
+    
+.third
+{
+   width:160px;
+    }          
+    
+.promoPhotoes    
+{
+    width:679px;
+    height:212px;
+    display:inline-block;
+    text-align:justify;
+    text-align-last:justify;
+    
+     }
+    
+.promoPhotoes .one
+{
+    height:212px;
+    width:212px;
+    }   
+    
+    
+.bottomCounters
+{
+    position:relative;
+    bottom:3px;
+    }    
+.bottomCounters .addToFavourites
+{
+    vertical-align:middle;
+    float:left;
+        }    
+.bottomCounters .addToFavourites .icon
+{
+    float:left;
+    vertical-align:middle;
+    position:relative;
+    bottom:1px;
+    }
+.bottomCounters .addToFavourites .text
+{
+    float:left;
+    font-size:10pt;
+    vertical-align:middle;
+    padding-left:5px;
+    
+    }    
+    
+.bottomCounters .photovideocounters
+{
+    float:right;
+    font-size:10pt;
+    }    

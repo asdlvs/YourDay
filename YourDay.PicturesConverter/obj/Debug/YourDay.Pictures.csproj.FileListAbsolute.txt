@@ -1,0 +1,22 @@
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\obj\Debug\ResolveAssemblyReference.cache
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.dll.config
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.dll
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.pdb
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\obj\Debug\YourDay.Pictures.dll
+D:\YourDay.PicturesConverter\YourDay.PicturesConverter\obj\Debug\YourDay.Pictures.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.dll.config
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Pictures.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.BLL.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.POCO.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Constants.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.DAL.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.BLL.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.POCO.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Constants.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.DAL.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Debug\YourDay.Pictures.csprojResolveAssemblyReference.cache
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Debug\YourDay.Pictures.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Debug\YourDay.Pictures.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Configuration.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Debug\YourDay.Configuration.pdb

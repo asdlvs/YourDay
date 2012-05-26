@@ -1,0 +1,4 @@
+D:\YourDay\YourDay (2)\YourDay.Configuration\bin\Debug\YourDay.Configuration.dll
+D:\YourDay\YourDay (2)\YourDay.Configuration\bin\Debug\YourDay.Configuration.pdb
+D:\YourDay\YourDay (2)\YourDay.Configuration\obj\Debug\YourDay.Configuration.dll
+D:\YourDay\YourDay (2)\YourDay.Configuration\obj\Debug\YourDay.Configuration.pdb

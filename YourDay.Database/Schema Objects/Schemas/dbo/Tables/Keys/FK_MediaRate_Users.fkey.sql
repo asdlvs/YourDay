@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[MediaRate]
+    ADD CONSTRAINT [FK_MediaRate_Users] FOREIGN KEY ([Author]) REFERENCES [dbo].[Users] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

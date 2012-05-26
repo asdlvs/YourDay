@@ -1,0 +1,5 @@
+H:\YourDay (2)\YourDay.WebServices\bin\YourDay.WebServices.dll
+H:\YourDay (2)\YourDay.WebServices\bin\YourDay.WebServices.pdb
+H:\YourDay (2)\YourDay.WebServices\obj\Debug\ResolveAssemblyReference.cache
+H:\YourDay (2)\YourDay.WebServices\obj\Debug\YourDay.WebServices.dll
+H:\YourDay (2)\YourDay.WebServices\obj\Debug\YourDay.WebServices.pdb

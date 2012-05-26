@@ -1,0 +1,16 @@
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Pictures.dll.config
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Pictures.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Pictures.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.BLL.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.POCO.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Constants.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.DAL.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Masquaradue.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.BLL.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.POCO.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Constants.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.DAL.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\bin\Release\YourDay.Masquaradue.pdb
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Release\YourDay.Pictures.csprojResolveAssemblyReference.cache
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Release\YourDay.Pictures.dll
+D:\YourDay\YourDay (2)\YourDay.PicturesConverter\obj\Release\YourDay.Pictures.pdb

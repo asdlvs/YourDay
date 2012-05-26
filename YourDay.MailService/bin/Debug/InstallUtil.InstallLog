@@ -1,0 +1,1533 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба была отмечена для удаления
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба была отмечена для удаления
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба была отмечена для удаления
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба была отмечена для удаления
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба уже существует
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба уже существует
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: Указанная служба уже существует
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.exe assembly's progress.
+The file is located at D:\YourDay\YourDay (2)\YourDay.MailService\bin\Debug\YourDay.MailService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

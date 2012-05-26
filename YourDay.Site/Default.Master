@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="YourDay.Site._Default" %>
+
+<%@ Register src="Controls/Auth/Main.ascx" tagname="Main" tagprefix="uc1" %>
+
+<%@ Register src="Controls/Default/BottomLinksArray.ascx" tagname="BottomLinksArray" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link href="/css/Common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/Navigate/LeftMenu.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic' rel='stylesheet' type='text/css' />
+    <script src="/JS/Common/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="JS/Common/jquery.cookie.js"></script>
+    <script src="/JS/DatePicker/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="/JS/DatePicker/jquery.ui.widget.js" type="text/javascript"></script>
+    
+<script src="/JS/DropDown/cusel-min-2.4.1.js" type="text/javascript"></script>
+<script src="/JS/DropDown/jScrollPane.js" type="text/javascript"></script>
+<script src="/JS/DropDown/cusel.js" type="text/javascript"></script>
+<script src="/JS/DropDown/jquery.mousewheel.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css_optimized/base64.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/form.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/panel.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/style.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/table.css" />
+    <link rel="stylesheet" type="text/css" href="css_optimized/typo.css" />
+
+    <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderHead"></asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="ScriptManagerDefault"  EnablePartialRendering="true">
+        <Services>
+            <asp:ServiceReference Path="~/WS/WS.asmx"/>
+        </Services>
+        </asp:ScriptManager>
+
+        <div class="profileDiv">
+            <uc1:Main ID="Main1" runat="server" />
+        </div>
+
+        <div class="goatDiv">
+            <div class="compositeHeadDiv">
+                <div class="logoDiv"><a href="/Default.aspx" ><img src="/Pict/Common/logo.png" alt="Логотип"  border="0"/></a></div>
+                <div class="bannerDiv"><img src="/Pict/Common/banner.png" alt="Устрой собственную вечеринку! В два клика!" /></div>
+            </div>
+        </div>
+        
+        <div class="breadCrumbs">
+            <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderBreadCrumbs"></asp:ContentPlaceHolder>
+        </div>
+
+        <div class="topDiv">
+            <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderTopDiv"></asp:ContentPlaceHolder>
+        </div>
+
+        <div class="bodyDiv">
+            <div class="menuDiv">
+                <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderMenu"></asp:ContentPlaceHolder>
+            </div>
+            <div class="contentDiv">
+                <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderContent">
+                    <p>
+                        </p>
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+         <div class="bottomDiv">
+            
+            <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderBottomDiv"></asp:ContentPlaceHolder>
+        </div>
+        <div class="bottomPlate">
+            <uc2:BottomLinksArray ID="BottomLinksArrayDefault" runat="server" />
+        </div>
+        <div class="bottomHeight">
+            
+        </div>
+
+    </form>
+</body>
+</html>

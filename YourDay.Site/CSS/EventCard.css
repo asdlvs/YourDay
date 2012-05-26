@@ -1,0 +1,180 @@
+﻿.eventcardcreateblockwrap
+{
+    margin: 0 auto;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-left: -363px;
+}
+
+.eventcardcreateblocktop
+{
+    width: 726px;
+    height: 40px;
+    background-image: url('/Pict/EventCard/topbg.png');
+    position: relative;
+    top: 10px;
+}
+
+.eventcardcreateblockbottom
+{
+    width: 726px;
+    height: 39px;
+    background-image: url('/Pict/EventCard/bottombg.png');
+}
+
+.eventcardcreateblock
+{
+    width: 726px;
+    background-image: url('/Pict/EventCard/bg.png');
+}
+
+    .eventcardcreateblock .content
+    {
+        margin: 0 auto;
+        width: 435px;
+        text-align: center;
+    }
+
+    .eventcardcreateblock .smalltitle
+    {
+        float: left;
+        font-size: 10pt;
+        position: relative;
+    }
+
+    .eventcardcreateblock .content #TextBoxTitle
+    {
+        width: 429px;
+        height: 38px;
+        font-size: 13pt;
+        padding-left: 10px;
+    }
+
+    .eventcardcreateblock .lobstertitle
+    {
+        font-size: 35pt;
+        color: #502049;
+    }
+
+
+    .eventcardcreateblock .content input
+    {
+        border-left: 1px solid #3d3d3d;
+        border-top: 1px solid #3d3d3d;
+        border-bottom: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
+    }
+
+    .eventcardcreateblock .content textarea
+    {
+        border-left: 1px solid #3d3d3d;
+        border-top: 1px solid #3d3d3d;
+        border-bottom: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
+    }
+
+    .eventcardcreateblock .content select
+    {
+        border-left: 1px solid #3d3d3d;
+        border-top: 1px solid #3d3d3d;
+        border-bottom: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
+    }
+
+    .eventcardcreateblock .content textarea:focus
+    {
+        border: 1px solid #96ab42;
+    }
+
+    .eventcardcreateblock .content select:focus
+    {
+        border: 1px solid #96ab42;
+    }
+
+    .eventcardcreateblock .content input:focus
+    {
+        border: 1px solid #96ab42;
+    }
+
+    .eventcardcreateblock .content .table
+    {
+        display: table;
+        float: left;
+        font-size: 10pt;
+    }
+
+    .eventcardcreateblock .content #DropDownListEventCardType
+    {
+        width: 149px;
+        height: 28px;
+    }
+
+    .eventcardcreateblock .content #DropDownListDate
+    {
+        width: 104px;
+        height: 28px;
+    }
+
+.dropdowntime
+{
+    width: 85px;
+    height: 28px;
+}
+
+
+
+.eventcardcreateblock .content .table input[type=text]
+{
+    width: 51px;
+    height: 22px;
+}
+
+.eventcardcreateblock .content .table #datepicker
+{
+    width: 70px;
+}
+
+.eventcardcreateblock .content #TextBoxDescription
+{
+    width: 429px;
+    height: 135px;
+}
+
+
+.eventcardcreateblock .content #DropDownListWhoSee
+{
+    width: 149px;
+    height: 28px;
+}
+
+.eventcardcreateblock .content .budjet input[type=text]
+{
+    width: 104px;
+    height: 22px;
+}
+
+.eventcardcreateblock .button
+{
+    width: 187px;
+    height: 57px;
+    margin: 0 auto;
+    display: table;
+}
+
+.eventcardcreateblock .categoriesinfo
+{
+    margin: 0 auto;
+    width: 435px;
+    height: 10px;
+    display: table;
+}
+
+    .eventcardcreateblock .categoriesinfo .column
+    {
+        width: 50%;
+        border: 0px solid silver;
+        float: left;
+        height: 10px;
+        display: table;
+    }

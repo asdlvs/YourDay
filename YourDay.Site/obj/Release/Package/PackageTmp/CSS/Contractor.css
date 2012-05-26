@@ -1,0 +1,736 @@
+﻿.infoplate 
+{
+    width:726px;
+    height:150px;
+    background-image:url("/Pict/Contractor/InfoPlate.png");
+    position:relative;
+    display:table-cell;
+    top:-3px;
+    padding-left:30px;
+    vertical-align:middle;
+}
+
+.moreinfoplate
+{
+     width:726px;
+     padding:0 0 0 0;
+     margin: 0 0 0 0;
+    }
+    
+
+    
+.infoplate .avatar
+{
+    float:left;
+    width:100px;
+    height:100px;
+    border:1px solid silver;
+    }    
+    
+.infoplate .info
+{
+    float:left;
+    width:360px;
+    height:100px;
+    /*border:1px solid silver;*/
+    position:relative;
+    left:20px;
+    font-size:10pt;
+   
+
+    }   
+.infoplate .info .name
+{
+   font-weight:bold;
+   
+    }  
+.infoplate .info .good
+{
+   color:#719321;
+    } 
+.infoplate .info .bad
+{
+   color:#cf0241;
+    }                       
+    
+.infoplate .action
+{
+    float:left;
+    width:160px;
+    height:100px;
+    /*border:1px solid silver;*/
+    position:relative;
+    left:40px;
+    font-size:10pt;
+    }  
+    
+.infoplate .action .element
+{
+    height:25px;
+    display:block;
+    }   
+.infoplate .action .element .icon
+{
+    position:relative;
+    top:5px;
+    float:left;
+    } 
+.infoplate .action .element .text
+{
+    position:relative;
+    left:10px;
+    float:left;
+    top:4px;
+    }        
+                
+.moreinfoplate .middle .contactsinfo
+{
+    width:100%;
+    font-size:10pt;
+    line-height:17px;
+    }   
+    
+.moreinfoplate .middle .description
+{
+    width:100%;
+    font-size:10pt;
+    }    
+    
+.moreinfoplate .middle .addition
+{
+    width:100%;
+    font-size:10pt;
+    
+    }  
+    
+.moreinfoplate .middle hr
+{
+    background-color:#000000; 
+    height:2px;
+    border:0;
+    position:relative;
+    left:1px;
+    }     
+    
+.eventcardpromolist .eventcardpromo
+{
+    height:35px;
+    width:726px;
+    }   
+    
+.eventcardpromolist .title
+{
+    width:100px;
+    padding:20px 0px 20px 00px;
+    
+    }    
+.eventcardpromolist .eventcardpromo .date
+{    
+    color:#cc9999;  
+    font-size:8pt;     
+    font-family:Arial;
+    }
+    
+.eventcardpromolist .eventcardpromo a
+{
+    color:#cccc66;
+    font-family:Arial;
+    font-size:10pt;
+    }    
+  
+    
+.eventcardpromolist .eventcardpromo .photovideocount
+{
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size:8pt;
+    float:right;
+    }  
+
+
+.eventcardpromolist .eventcardpromo .counts
+{
+    height:30px;
+    width:100%;
+    float:left;
+    }    
+    
+.eventcardpromolist .eventcardpromo .counts .photovideocount
+{
+    padding-right:10px;
+    }    
+.eventcardpromolist .eventcardpromo .counts .photovideocount a
+{
+    color:#996699;
+    font-size:8pt;
+    }    
+ 
+.eventcardpromolist .eventcardpromo .counts .commentcount
+{
+   /* padding-left:10px;*/
+    }    
+.eventcardpromolist .eventcardpromo .counts .commentcount a
+{
+    color:#caabab;
+    font-family: Arial;
+    font-size:8pt;
+    float:left;
+    }    
+    
+/*Календарь*/
+
+.shortcalendar .oneday
+{
+    width:83px;
+    height:83px;
+    float:left;
+    padding:10px 10px 10px 10px;
+    font-size:9pt;
+    background-image:url('/pict/contractor/day.png');
+    margin-bottom:1px;
+    cursor:pointer;
+    }    
+.shortcalendar
+{
+    display:table;
+    }    
+.shortcalendar .empty
+{
+    background-image:url('/pict/contractor/emptyday.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    color:#FFFFFF;
+    }    
+.shortcalendar .closed
+{
+    background-image:url('/pict/contractor/closedday.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    color:#583e52;
+    }    
+    
+.shortcalendar .oneday .dayname
+{
+    float:left;
+    }   
+.shortcalendar .oneday .daydate
+{
+    float:right;
+    }  
+    
+.shortcalendar .oneday .centralblock
+{
+    width:40px;
+    height:40px;
+    margin:0 auto;
+    position:relative;
+    top:50%;
+    margin-top:-15px;
+    text-align:center;
+    }       
+    
+.shortcalendar .oneday .shift
+{
+    width:20px;
+    height:7px;
+    float:left;
+    margin:0 3px 0 2px;
+    position:relative;
+    left:2px;
+    top:53px;
+    }    
+    
+/*Events in contractor cabinet*/    
+.events 
+{
+    display:block;
+    float:left;
+    }
+.events .one
+{
+    display:table;
+    width:722px;
+    height:70px;
+    }
+    
+.events .one .write
+{
+    width:30px;
+    display:table-cell;
+    height:70px;
+    vertical-align:middle;
+    padding-left:5px;
+    }    
+    
+.events .one .title
+{
+    width: 330px;
+    display:table-cell;
+    height:70px;
+    vertical-align:middle;
+
+    }   
+.events .one .title a
+{
+        color:#a07d97;
+        padding-left:10px;
+    }     
+    
+.events .one .specialization
+{
+    width:130px;
+    display:table-cell;
+    height:70px;
+    color:#FFFFFF;
+    font-size:10pt;
+    padding-left:10px;
+    vertical-align:middle;
+    }
+    
+.events .one .status
+{
+    width:125px;
+    border:silver 1px sold;
+    display:table-cell;
+    height:70px;
+    padding-left:10px;
+    vertical-align:middle;
+    font-size:10pt;
+    }    
+    
+.events .one .time
+{
+    width:95px;
+    display:table-cell;
+    height:70px;
+    vertical-align:middle;
+    color:#FFFFFF;
+    font-size:10pt;
+    }    
+.events .comment
+{
+    display:none;
+    }    
+    
+.events .one .author
+{
+    color:#FFFFFF;
+    font-size:10pt;
+    padding-left:10px;
+    padding-bottom:10px;
+    }  
+.events .one .author a
+{    
+    color: #a07d97 ;
+}
+
+.events .one .description
+{
+     color:#FFFFFF;
+    font-size:10pt;
+    padding-left:10px;
+    }
+.events .one .messages
+{
+    width:720px;
+                      /**/
+   /* background-color:#FFFFFF;        */              
+    }   
+.events .one .top
+{
+    background-image:url('/Pict/Contractor/messagesTopBg.png');
+    background-position:top;
+    background-repeat:no-repeat;
+    height:8px;
+    }    
+    
+.events .one .bottom
+{
+    background-image:url('/Pict/Contractor/messagesBottomBg.png');
+    background-position:bottom;
+    background-repeat:no-repeat;
+    height:8px;
+    }       
+    
+.events .one .middle
+{
+    background-color:#f5f5f5;
+    }  
+    
+.events .one .messagesitems    
+{
+    font-size:9pt;
+    }   
+.events .one .messagesitems .item
+{
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    }   
+    
+.events .one .messagesitems .item .author
+{
+    display:table-cell;
+    width:150px;
+    }   
+
+.events .one .messagesitems .item .message
+{
+    display:table-cell;
+    width:490px;
+    }  
+
+.events .one .messagesitems .item .mtime
+{
+    padding-left:25px;
+    display:table-cell;
+    width:60px;
+    color:#999999;
+    } 
+.events .one .messagebox
+{
+     padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+
+    }    
+    
+.events .one .messagebox textarea
+{
+        width:680px;
+    height:100px;
+    overflow: hidden;
+     border-left:1px solid #3d3d3d;
+    border-top:1px solid #3d3d3d;
+    border-bottom:1px solid #FFFFFF;
+    border-right:1px solid #FFFFFF;
+    }    
+    
+.events .one .messagebox textarea:focus
+{
+   border:1px solid #96ab42;
+    }      
+.events .one .bottomblock
+{
+    height:40px;
+    width:720px;
+
+    }
+.events .one .btnsendmessage
+{
+    float:right;
+    padding-right:15px;
+    }
+    
+.events .lobstertitle
+{
+    display:table-cell;
+    width:170px;
+    }    
+.events .dayfilter
+{
+    
+    font-size:9pt;
+    width:70px;
+    display:table-cell;
+    }   
+.events .dayfilter a
+{
+    color:#a07d97;
+    }   
+    
+.events .header
+{
+    width:723px;
+    height:38px;
+    background-image:url('/Pict/Contractor/messageHeaderBG.png');
+    display:table;
+    color:#caabab;
+    font-size:10pt;
+    }    
+    
+.events .header .event
+{
+    width:375px;
+    display:table-cell;
+    vertical-align:middle;
+    padding-left:10px;
+    }
+.events .header .specialization
+{
+    width:150px;
+    display:table-cell;
+    vertical-align:middle;
+    padding-left:10px;
+    }
+.events .header .paymentstatus
+{
+    width:125px;
+    display:table-cell;
+    vertical-align:middle;
+    padding-left:10px;
+    }
+.events .header .time
+{
+    width:95px;
+    display:table-cell;
+    vertical-align:middle;
+    padding-left:10px;
+    }   
+    
+.events .line
+{
+    width:720px;
+    height:2px;
+    background-image:url("/Pict/Contractor/horizontalLine.png");
+    }
+    
+.messagesdark
+{
+    position:absolute;
+    background-color:Black;
+    width:726px;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+    visibility:hidden;
+    height:100%;
+    }
+    
+.messages
+{
+    font-size:9pt;
+    }    
+.messages .oneTop
+{
+    background-image:url("/Pict/Common/blockTop.png");
+    background-repeat:no-repeat;
+    height:6px;
+    width:726px; 
+  display:table;
+    }
+.messages .oneMiddle
+{
+    background-image:url("/Pict/Common/blockMiddle.png");
+    background-repeat:repeat-y;
+    width:726px;
+    display:table;
+    }    
+.messages .one
+{
+        padding-top:15px;
+    }  
+.messages .answer
+{
+  text-align:right;
+
+         }   
+         
+.messages .answer .answerpositionblock         
+{
+    float:right; width:2px;height:2px; position:relative; right:360px;
+    }
+    
+.messages .answer .answerpositionblock .answertextblock       
+{
+    position:relative; height:200px;
+    visibility:hidden;
+    z-index:100;
+    }    
+.messages .answer .answerlink
+{
+    position:relative;
+    right:20px;
+    float:right;
+    }          
+.messages .oneBottom
+{
+    background-image:url("/Pict/Common/blockBottom.png");
+    background-repeat:no-repeat;
+    height:8px;
+    width:726px;
+    display:table;
+    }    
+    
+.messages .one .elem
+{
+    display:table-cell;
+    vertical-align:middle;
+    padding:15px 0px 15px 0px;
+ }     
+    
+.messages .one .cb
+{
+    width:26px;
+    padding:0px 10px 0px 10px;
+    }    
+    
+.messages .one .avatar
+{
+    width:80px;
+    padding:0px 10px 0px 0px;
+    } 
+    
+.messages .one .name
+{
+    width:150px;
+    color:#707070;
+     padding:17px 20px 0px 17px;
+    vertical-align:top;
+    }   
+    
+    
+    
+.messages .one .itself
+{
+    width:500px;
+    padding:17px 20px 0px 17px;
+    vertical-align:top;
+    }              
+    
+.messageslinks
+{
+        width:726px;
+        height:30px;
+        display:table;
+        font-size:9pt;
+        
+    }    
+ 
+.messageslinks .el
+{
+    display:table-cell;
+    vertical-align:middle;
+    }  
+    
+.messageslinks .el a
+{
+   color:#a07d97;
+    }    
+.messageslinks .a
+{width:40px;}      
+.messageslinks .n
+{width:70px;}
+.messageslinks .c
+{/*width:200px;*/}
+    
+.messageslinks .sel
+{
+    color:#ffffff;
+    width:65px;
+    }   
+    
+.messageslinks .f
+{
+    color:#ffffff;
+    width:50px;
+    }       
+    
+.messageslinks .other
+{
+    display:table-cell;
+    }     
+    
+    
+.events .navdates
+{
+    width:726px;
+    font-size:10pt;
+    }    
+.events .navdates .anchoryesterday
+{
+    float:left;
+     position:relative;
+    left:3px;
+    cursor:pointer;
+    }
+    
+.events .navdates .anchoryesterday a
+{
+    color:#a07d97;
+    }    
+
+.events .navdates .anchortomorrows
+{
+    float:right;
+    position:relative;
+    right:6px;
+    cursor:pointer;
+    }      
+.events .navdates .anchortomorrows a
+{
+    color:#d7bf5e;
+    }    
+    
+.preferencesblock
+{
+    font-size:10pt;
+    }    
+.preferencesblock .top
+{
+    width:726px;
+    height:6px;
+    background-image:url('/Pict/Contractor/preferencesBlockTop.png');
+    background-repeat:no-repeat;
+    }   
+    
+.preferencesblock .middle
+{
+    width:726px;
+    background-image:url('/Pict/Contractor/preferencesBlockMiddle.png');
+    padding:20px 30px 20px 30px;
+    background-repeat:repeat-y;
+    }  
+    
+.preferencesblock .bottom
+{
+    width:726px;
+    height:8px;
+    background-image:url('/Pict/Contractor/preferencesBlockBottom.png');
+    background-repeat:no-repeat;
+    } 
+
+.privateinfo input[type=text]
+{
+     height:28px;
+     width:235px;
+     border-left:1px solid #3d3d3d;
+    border-top:1px solid #3d3d3d;
+    border-bottom:1px solid #FFFFFF;
+    border-right:1px solid #FFFFFF;
+    }   
+    
+.privateinfo textarea
+{
+    width:660px;
+    height:200px;
+    }   
+    
+.privateinfo input[type=text]:focus
+{
+   border:1px solid #96ab42;
+    }     
+.privateinfo .xp input[type=text]               
+{
+    width:50px;
+    }
+    
+.privateinfo .btnsave
+{
+    float:right;
+    padding-right:50px;
+    position:relative;
+    bottom:30px;
+    
+    }    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+      

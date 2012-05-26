@@ -1,0 +1,73 @@
+﻿.leftmenu .header
+{
+    width:190px;
+    height:35px;
+    background-image:url('../../Pict/Navigate/MenuBlock.png');
+    display:table-cell;
+    text-align:left;
+    vertical-align:middle;
+    font-family:Arial;
+    font-size:10pt;
+    padding-left:10px;
+    border-bottom: 1px solid #351c31;
+    cursor:pointer;
+    }
+
+.leftmenu .header a
+{
+    color:#000000;
+    text-decoration:none;
+    line-height:35px;
+    }    
+    
+.leftmenu .row
+{
+    display:table-row;
+    }    
+    
+    
+   
+    
+.leftmenu .top
+{
+    background-image:url('../../Pict/Navigate/MenuBlockTop.png');
+    }  
+    
+.leftmenu .bottom
+{
+    background-image:url('../../Pict/Navigate/MenuBlockBottom.png');
+    }        
+    
+.leftmenu .selected .header
+{
+    width:190px;
+    height:35px;
+    background-image:url('../../Pict/Navigate/MenuBlockSelected.png');
+    display:table-cell;
+    text-align:left;
+    vertical-align:middle;
+    font-family:Arial;
+    font-size:10pt;
+    padding-left:10px;
+    border-bottom: 1px solid #351c31;
+    color:#FFFFFF;
+    font-weight:bold;
+    }   
+   
+    
+.leftmenu .bodyitem 
+{
+    width:170px;
+    height:35px;
+    text-align:left;
+    padding-left:20px;
+    }   
+    
+.leftmenu .bodyitem a
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:#a07d97;
+    position:relative;
+    top:10px;
+    }     

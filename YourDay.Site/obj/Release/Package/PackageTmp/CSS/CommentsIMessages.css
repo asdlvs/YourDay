@@ -1,0 +1,57 @@
+﻿.newmessageblock
+{
+    width:720px;
+    /*background-image:url('/pict/CommentsIMessages/newmessagebg.png');*/
+    background-color:#F5f5f5;
+    }
+    
+.newmessageinsideblock
+{
+    padding:20px 20px 20px 20px;
+    width:680px;
+    font-size:9pt;
+    
+    }   
+    
+    
+.newmessageblockpopup
+{
+    width:400px;
+    /*background-image:url('/pict/CommentsIMessages/newmessagebg.png');*/
+    background-color:#F5f5f5;
+    border:1px solid silver;
+    
+    }
+    
+.newmessageinsideblockpopup
+{
+    padding:10px 10px 10px 10px;
+    width:380px;
+    font-size:9pt;
+    
+    }        
+.newmessageinsideblock div
+{
+    padding:3px 0px 2px 0px;
+    }    
+    
+.newmessageinsideblock input[type=text]
+{
+    width:290px;
+    height:28px;
+    }    
+    
+.newmessageinsideblock textarea
+{
+    width:678px;
+    height:157px;
+    }    
+.newmessageinsideblockpopup textarea
+{
+    width:378px;
+    height:157px;
+    }    
+.newmessageinsideblock .button
+{
+    float:right;
+    }

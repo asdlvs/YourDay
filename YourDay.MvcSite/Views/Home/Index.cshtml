@@ -1,0 +1,130 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Event Wizard -->
+<nav class="l-wrap b-event-wizard clearfix">
+	<ol>
+		<li class="step">
+			<h3>1 Шаг. Создайте событие</h3>
+			Просто создайте и опубликуйте свое событие.<br>
+			Контрагенты сами предложат Вам свои услуги.
+		</li>
+		<li class="step">
+			<h3>2 Шаг. Выберите контрагентов</h3>
+			Подберите контрагентов, просматривая  фото<br>
+			и видео-отчеты о событиях.
+		</li>
+		<li class="go">
+			<a href="javascript:;" class="ui-button flexwidth" id="listMore"><span>Устроить праздник!</span></a>
+		</li>
+	</ol>
+</nav>
+<!-- /Event Wizard -->
+<!-- Content -->
+<div class="l-wrap clearfix">
+	<div class="l-content-wrap">
+		<div class="l-content">
+
+			<!-- Promo media -->
+			<div class="b-promo-media" id="promoMedia">
+				<img src="http://dummyimage.com/720x270/09f/fff.gif&text=one" alt="Banner 1">
+				<img src="http://dummyimage.com/720x270/09f/fff.gif&text=two" alt="Banner 2">
+				<img src="http://dummyimage.com/720x270/09f/fff.gif&text=three" alt="Banner 3">
+			</div>
+			<script>
+				$(function(){
+					/* Used http://www.zurb.com/playground/orbit-jquery-image-slider */
+					$('#promoMedia').orbit({
+						bullets: true,
+						//bulletThumbs: true,
+						});
+					});
+			</script>
+			<!-- /Promo media -->
+
+			<!-- Best photographers -->
+			@Html.Partial("BestContractors")
+			<!-- /Best photographers -->
+		
+		</div>
+	</div>
+	@Html.Partial("LeftMenu")
+</div>
+<!-- /Content -->
+
+
+<div class="l-wrap clearfix">
+	<section class="b-event-reports promo-panel">
+		<header>
+			<h2 class="featured">Отчет о событиях</h2>
+		</header>
+		<div class="b-twocol asymmetric clearfix">
+			<div class="col left">
+				<div class="b-media-gallery">
+					<figure class="big-preview">
+						<img src="http://dummyimage.com/480x265/09f/fff.gif" alt="Big photo" class="media">
+						<figcaption class="descr">
+							Мы такие тусим на фотке, я такой типа «Эй патипипл камон!!! А телка такая: «Да, да! Давай ещё!!! Дава-давай-давай-давай!», а мой кореш такой, типа тоже весь дико угарает, а еще я забыл надеть трусы и мне за это пиздюль под глаз повесили. Короче, офигительно оттусили, вот бы повторить!
+						</figcaption>
+					</figure>
+
+					<nav class="media-list clearfix">
+						<ul>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="http://dummyimage.com/50x50/09f/fff.gif" alt="Small photo" class="media">
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col right">
+				<img src="http://dummyimage.com/440x329/09f/fff.gif" alt="Video" class="media">
+			</div>
+		</div>
+	</section>
+
+	<div class="b-twocol asymmetric promo-panel clearfix">
+		@{Html.RenderPartial("Articles");}		
+		@{Html.RenderPartial("News");}
+	</div>
+</div>
+<!-- /Promo content -->

@@ -1,0 +1,179 @@
+/**
+ * »конки
+ */
+
+.i {
+	display: inline-block;
+	background: url('../i/bg_ico.png') no-repeat;
+	vertical-align: middle;
+	}
+.i-left {margin-right: 5px;}
+.i-plus,
+.i-remove,
+.i-remove span {
+	width: 15px;
+	height: 16px;
+	background-position: 0 0;
+	}
+.i-remove {background-position: -15px 0;}
+.i-remove:hover {background-position: -30px 0;}
+
+.i-rating {
+	position: relative;
+	width: 60px;
+	height: 10px;
+	background-position: 0 -47px;
+	}
+	.i-rating i {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 10px;
+		background-position: 0 -57px;
+		}
+		.i-rating .i-rating-1 {width: 20%;}
+		.i-rating .i-rating-2 {width: 40%;}
+		.i-rating .i-rating-3 {width: 60%;}
+		.i-rating .i-rating-4 {width: 80%;}
+		.i-rating .i-rating-5 {width: 100%;}
+
+.i-facebook,
+.i-twitter,
+.i-google-plus,
+.i-vkontakte {
+	margin-left: 7px;
+	width: 24px;
+	height: 25px;
+}
+.i-facebook {background-position: 0 -16px;}
+.i-twitter {background-position: -25px -16px;}
+.i-google-plus {background-position: -50px -16px;}
+.i-vkontakte {background-position: -75px -16px;}
+
+/**
+ * Drop down control
+ */
+.i-dd-wrap {
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	background: #5b3852;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	}
+	.i-dd-wrap:hover {background: #623055;}
+	.i-dd {
+		position: absolute;
+		top: 5px;
+		left: 3px;
+		width: 9px;
+		height: 6px;
+		background-position:0 -41px;
+		}
+		.i-dd-wrap:hover .i-dd {background-position:-9px -41px;}
+
+/**
+ * Voting
+ */
+.vote-wrap a {
+	float:left;
+	//padding: 0 !important;
+	width: 22px;
+	//width: 28px;
+	height: 26px;
+	font-size: 18px;
+	line-height: 1;
+	//text-align: center !important;
+	text-decoration: none;
+	text-shadow: 0 -2px 0 rgba(0,0,0,.2);
+	vertical-align: middle;
+	
+	background: #4f2c45;
+	background: -webkit-linear-gradient(top, #4f2c45 0%, #43253b 100%);
+	background: -moz-linear-gradient(top, #4f2c45 0%, #43253b 100%);
+	background: -o-linear-gradient(top, #4f2c45 0%, #43253b 100%);
+	background: -ms-linear-gradient(top, #4f2c45 0%, #43253b 100%);
+	background: linear-gradient(top, #4f2c45 0%, #43253b 100%);
+	}
+	.vote-wrap a:hover {
+		background: #57304c;
+		background: -webkit-linear-gradient(top, #57304c 0%, #46273e 100%);
+		background: -moz-linear-gradient(top, #57304c 0%, #46273e 100%);
+		background: -o-linear-gradient(top, #57304c 0%, #46273e 100%);
+		background: -ms-linear-gradient(top, #57304c 0%, #46273e 100%);
+		background: linear-gradient(top, #57304c 0%, #46273e 100%);
+		}
+	.vote-wrap a:active {
+		background: #43253b;
+		background: -webkit-linear-gradient(top, #43253b 0%, #4d2b43 100%);
+		background: -moz-linear-gradient(top, #43253b 0%, #4d2b43 100%);
+		background: -o-linear-gradient(top, #43253b 0%, #4d2b43 100%);
+		background: -ms-linear-gradient(top, #43253b 0%, #4d2b43 100%);
+		background: linear-gradient(top, #43253b 0%, #4d2b43 100%);
+		}
+.vote-wrap .cool {
+	padding-left: 6px;
+	color: #719321;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: left;
+	
+	-webkit-border-radius: 0 13px 13px 0;
+	-moz-border-radius: 0 13px 13px 0;
+	-o-border-radius: 0 13px 13px 0;
+	-ms-border-radius: 0 13px 13px 0;
+	border-radius: 0 13px 13px 0;
+
+	-webkit-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset 1px 1px 0 #573042;
+	-moz-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset 1px 1px 0 #573042;
+	-o-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset 1px 1px 0 #573042;
+	-ms-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset 1px 1px 0 #573042;
+	box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset 1px 1px 0 #573042;
+	}
+	.vote-wrap .cool:active {
+		line-height: 27px;
+		-webkit-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset 1px -1px 0 #573042;
+		-moz-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset 1px -1px 0 #573042;
+		-o-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset 1px -1px 0 #573042;
+		-ms-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset 1px -1px 0 #573042;
+		box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset 1px -1px 0 #573042;
+		}
+.vote-wrap .sux {
+	padding-right: 6px;
+	color: #b94343;
+	line-height: 28px;
+	text-align: right;
+	
+	border-right: 1px solid #2f192d;
+	
+	-webkit-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset -1px 1px 0 #573042;
+	-moz-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset -1px 1px 0 #573042;
+	-o-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset -1px 1px 0 #573042;
+	-ms-box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset -1px 1px 0 #573042;
+	box-shadow: 0 1px 0  rgba(0,0,0,0.5), inset -1px 1px 0 #573042;
+
+	-webkit-border-radius: 13px 0 0 13px;
+	-moz-border-radius: 13px 0 0 13px;
+	-o-border-radius: 0 0 13px 13px;
+	-ms-border-radius: 13px 0 0 13px;
+	border-radius: 13px 0 0 13px;
+	}
+	.vote-wrap .sux:active {
+		line-height: 29px;
+		-webkit-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset -1px -1px 0 #573042;
+		-moz-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset -1px -1px 0 #573042;
+		-o-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset -1px -1px 0 #573042;
+		-ms-box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset -1px -1px 0 #573042;
+		box-shadow: 0 -1px 0  rgba(0,0,0,0.5), inset -1px -1px 0 #573042;
+		}
